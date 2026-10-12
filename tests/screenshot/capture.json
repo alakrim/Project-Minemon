@@ -1,0 +1,4 @@
+[
+	{"name": "capture_odds", "pos": [0, 180.5, -4.5], "yaw_deg": 0, "pitch_deg": -8, "time_of_day": 0.5, "wait_s": 3, "keep_hud": true},
+	{"name": "capture_shake", "pos": [0, 180.5, -4.5], "yaw_deg": 0, "pitch_deg": -8, "time_of_day": 0.5, "wait_s": 1, "keep_hud": true}
+]

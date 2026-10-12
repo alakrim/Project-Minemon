@@ -1,0 +1,4 @@
+[
+	{"name": "dread_night", "pos": [0, 180.5, -5.5], "yaw_deg": 0, "pitch_deg": -4, "time_of_day": 0.9, "wait_s": 4},
+	{"name": "dread_dusk", "pos": [0, 180.5, -5.5], "yaw_deg": 0, "pitch_deg": -4, "time_of_day": 0.78, "wait_s": 4}
+]

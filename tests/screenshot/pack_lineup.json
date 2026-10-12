@@ -1,0 +1,98 @@
+[
+ {
+  "name": "pack_19",
+  "pos": [
+   -9.3,
+   200.5,
+   -4.0
+  ],
+  "yaw_deg": 0,
+  "pitch_deg": -8,
+  "time_of_day": 0.5,
+  "wait_s": 10
+ },
+ {
+  "name": "pack_25",
+  "pos": [
+   -3.3,
+   200.5,
+   -4.0
+  ],
+  "yaw_deg": 0,
+  "pitch_deg": -8,
+  "time_of_day": 0.5,
+  "wait_s": 10
+ },
+ {
+  "name": "pack_92",
+  "pos": [
+   2.7,
+   200.5,
+   -4.0
+  ],
+  "yaw_deg": 0,
+  "pitch_deg": -8,
+  "time_of_day": 0.5,
+  "wait_s": 10
+ },
+ {
+  "name": "pack_95",
+  "pos": [
+   8.7,
+   200.5,
+   -4.0
+  ],
+  "yaw_deg": 0,
+  "pitch_deg": -8,
+  "time_of_day": 0.5,
+  "wait_s": 10
+ },
+ {
+  "name": "pack_130",
+  "pos": [
+   14.7,
+   200.5,
+   -4.0
+  ],
+  "yaw_deg": 0,
+  "pitch_deg": -8,
+  "time_of_day": 0.5,
+  "wait_s": 10
+ },
+ {
+  "name": "pack_155",
+  "pos": [
+   20.7,
+   200.5,
+   -4.0
+  ],
+  "yaw_deg": 0,
+  "pitch_deg": -8,
+  "time_of_day": 0.5,
+  "wait_s": 10
+ },
+ {
+  "name": "pack_shiny19",
+  "pos": [
+   26.7,
+   200.5,
+   -4.0
+  ],
+  "yaw_deg": 0,
+  "pitch_deg": -8,
+  "time_of_day": 0.5,
+  "wait_s": 10
+ },
+ {
+  "name": "pack24_overview",
+  "pos": [
+   46.7,
+   200.5,
+   -14.0
+  ],
+  "yaw_deg": 0,
+  "pitch_deg": -8,
+  "time_of_day": 0.5,
+  "wait_s": 12
+ }
+]

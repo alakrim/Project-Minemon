@@ -1,0 +1,276 @@
+{
+  "curse": {
+    "name": "Curse",
+    "type": "ghost",
+    "category": "status",
+    "power": null,
+    "accuracy": null,
+    "pp": 10,
+    "priority": 0,
+    "archetype": "status_cloud",
+    "range_m": 10.0,
+    "cast_s": 0.4,
+    "cooldown_s": 1.5,
+    "effect": {}
+  },
+  "ember": {
+    "name": "Ember",
+    "type": "fire",
+    "category": "magic",
+    "power": 40,
+    "accuracy": 100,
+    "pp": 25,
+    "priority": 0,
+    "archetype": "projectile",
+    "range_m": 12.0,
+    "cast_s": 0.5,
+    "cooldown_s": 1.2,
+    "effect": {
+      "status": "burn",
+      "status_chance": 10
+    }
+  },
+  "focus_energy": {
+    "name": "Focus Energy",
+    "type": "normal",
+    "category": "status",
+    "power": null,
+    "accuracy": null,
+    "pp": 30,
+    "priority": 0,
+    "archetype": "aura",
+    "range_m": 0.0,
+    "cast_s": 0.3,
+    "cooldown_s": 3.0,
+    "effect": {}
+  },
+  "gust": {
+    "name": "Gust",
+    "type": "flying",
+    "category": "physical",
+    "power": 40,
+    "accuracy": 100,
+    "pp": 35,
+    "priority": 0,
+    "archetype": "beam",
+    "range_m": 8.0,
+    "cast_s": 0.4,
+    "cooldown_s": 1.0,
+    "effect": {}
+  },
+  "hyper_fang": {
+    "name": "Hyper Fang",
+    "type": "normal",
+    "category": "physical",
+    "power": 80,
+    "accuracy": 90,
+    "pp": 15,
+    "priority": 0,
+    "archetype": "melee_arc",
+    "range_m": 2.0,
+    "cast_s": 0.5,
+    "cooldown_s": 2.0,
+    "effect": {
+      "flinch_chance": 10
+    }
+  },
+  "hypnosis": {
+    "name": "Hypnosis",
+    "type": "psychic",
+    "category": "status",
+    "power": null,
+    "accuracy": 60,
+    "pp": 20,
+    "priority": 0,
+    "archetype": "status_cloud",
+    "range_m": 10.0,
+    "cast_s": 0.4,
+    "cooldown_s": 1.5,
+    "effect": {
+      "status": "sleep"
+    }
+  },
+  "leer": {
+    "name": "Leer",
+    "type": "normal",
+    "category": "status",
+    "power": null,
+    "accuracy": 100,
+    "pp": 30,
+    "priority": 0,
+    "archetype": "status_cloud",
+    "range_m": 10.0,
+    "cast_s": 0.4,
+    "cooldown_s": 1.5,
+    "effect": {
+      "stat_changes": [
+        {
+          "stat": "def",
+          "stages": -1,
+          "target": "target"
+        }
+      ]
+    }
+  },
+  "lick": {
+    "name": "Lick",
+    "type": "ghost",
+    "category": "physical",
+    "power": 20,
+    "accuracy": 100,
+    "pp": 30,
+    "priority": 0,
+    "archetype": "melee_arc",
+    "range_m": 2.0,
+    "cast_s": 0.3,
+    "cooldown_s": 1.2,
+    "effect": {
+      "status": "paralysis",
+      "status_chance": 30
+    }
+  },
+  "mean_look": {
+    "name": "Mean Look",
+    "type": "normal",
+    "category": "status",
+    "power": null,
+    "accuracy": null,
+    "pp": 5,
+    "priority": 0,
+    "archetype": "status_cloud",
+    "range_m": 10.0,
+    "cast_s": 0.4,
+    "cooldown_s": 1.5,
+    "effect": {}
+  },
+  "quick_attack": {
+    "name": "Quick Attack",
+    "type": "normal",
+    "category": "physical",
+    "power": 40,
+    "accuracy": 100,
+    "pp": 30,
+    "priority": 1,
+    "archetype": "melee_arc",
+    "range_m": 2.0,
+    "cast_s": 0.2,
+    "cooldown_s": 0.6,
+    "effect": {}
+  },
+  "sand_attack": {
+    "name": "Sand-Attack",
+    "type": "ground",
+    "category": "status",
+    "power": null,
+    "accuracy": 100,
+    "pp": 15,
+    "priority": 0,
+    "archetype": "status_cloud",
+    "range_m": 10.0,
+    "cast_s": 0.4,
+    "cooldown_s": 1.5,
+    "effect": {
+      "stat_changes": [
+        {
+          "stat": "acc",
+          "stages": -1,
+          "target": "target"
+        }
+      ]
+    }
+  },
+  "scary_face": {
+    "name": "Scary Face",
+    "type": "normal",
+    "category": "status",
+    "power": null,
+    "accuracy": 90,
+    "pp": 10,
+    "priority": 0,
+    "archetype": "status_cloud",
+    "range_m": 10.0,
+    "cast_s": 0.4,
+    "cooldown_s": 1.5,
+    "effect": {
+      "stat_changes": [
+        {
+          "stat": "spe",
+          "stages": -2,
+          "target": "target"
+        }
+      ]
+    }
+  },
+  "smokescreen": {
+    "name": "Smokescreen",
+    "type": "normal",
+    "category": "status",
+    "power": null,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "archetype": "status_cloud",
+    "range_m": 10.0,
+    "cast_s": 0.4,
+    "cooldown_s": 1.5,
+    "effect": {
+      "stat_changes": [
+        {
+          "stat": "acc",
+          "stages": -1,
+          "target": "target"
+        }
+      ]
+    }
+  },
+  "spite": {
+    "name": "Spite",
+    "type": "ghost",
+    "category": "status",
+    "power": null,
+    "accuracy": 100,
+    "pp": 10,
+    "priority": 0,
+    "archetype": "status_cloud",
+    "range_m": 10.0,
+    "cast_s": 0.4,
+    "cooldown_s": 1.5,
+    "effect": {}
+  },
+  "tackle": {
+    "name": "Tackle",
+    "type": "normal",
+    "category": "physical",
+    "power": 35,
+    "accuracy": 95,
+    "pp": 35,
+    "priority": 0,
+    "archetype": "melee_arc",
+    "range_m": 2.0,
+    "cast_s": 0.3,
+    "cooldown_s": 0.8,
+    "effect": {}
+  },
+  "tail_whip": {
+    "name": "Tail Whip",
+    "type": "normal",
+    "category": "status",
+    "power": null,
+    "accuracy": 100,
+    "pp": 30,
+    "priority": 0,
+    "archetype": "status_cloud",
+    "range_m": 10.0,
+    "cast_s": 0.4,
+    "cooldown_s": 1.5,
+    "effect": {
+      "stat_changes": [
+        {
+          "stat": "def",
+          "stages": -1,
+          "target": "target"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,9 @@
+[
+	{"name": "lineup_stand", "pos": [0, 200.5, -10], "yaw_deg": 0, "pitch_deg": -6, "time_of_day": 0.5, "wait_s": 12},
+	{"name": "lineup_walk", "pos": [0, 200.5, -10.6], "yaw_deg": 0, "pitch_deg": -6, "time_of_day": 0.5, "wait_s": 12},
+	{"name": "lineup_die", "pos": [0, 200.5, -11.2], "yaw_deg": 0, "pitch_deg": -6, "time_of_day": 0.5, "wait_s": 12},
+	{"name": "lineup_close_stand", "pos": [-2.6, 200.5, -8.5], "yaw_deg": 0, "pitch_deg": -4, "time_of_day": 0.5, "wait_s": 12},
+	{"name": "lineup_close_walk", "pos": [2.6, 200.5, -8.5], "yaw_deg": 0, "pitch_deg": -4, "time_of_day": 0.5, "wait_s": 12},
+	{"name": "closeup_west", "pos": [-6, 200.5, -6], "yaw_deg": 0, "pitch_deg": -6, "time_of_day": 0.5, "wait_s": 12},
+	{"name": "closeup_east", "pos": [6, 200.5, -6], "yaw_deg": 0, "pitch_deg": -6, "time_of_day": 0.5, "wait_s": 12}
+]

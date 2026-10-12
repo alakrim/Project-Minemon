@@ -1,0 +1,4 @@
+[
+	{"name": "sanctuary_dusk", "pos": [0, 181.5, -12], "yaw_deg": 0, "pitch_deg": -6, "time_of_day": 0.8, "wait_s": 8},
+	{"name": "sanctuary_night", "pos": [0, 181.5, -12], "yaw_deg": 0, "pitch_deg": -6, "time_of_day": 0.95, "wait_s": 8}
+]

@@ -1,0 +1,9 @@
+avg_fps: 58.8
+low1_fps: 20.5
+min_fps: 19.2
+max_frame_ms: 52.0
+max_static_mb: 0.0
+peak_columns: 100
+renderer: gl_compatibility
+gpu: AMD Radeon(TM) Vega 8 Graphics
+view_radius: 4

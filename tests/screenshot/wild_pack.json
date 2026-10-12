@@ -1,0 +1,7 @@
+[
+ {"name": "wild_left_a", "pos": [-4.0, 200.5, -7.0], "yaw_deg": 0, "pitch_deg": -6, "time_of_day": 0.5, "wait_s": 8},
+ {"name": "wild_left_b", "pos": [-4.0, 200.5, -7.0], "yaw_deg": 0, "pitch_deg": -6, "time_of_day": 0.5, "wait_s": 1},
+ {"name": "wild_right_a", "pos": [8.0, 200.5, -7.0], "yaw_deg": 0, "pitch_deg": -6, "time_of_day": 0.5, "wait_s": 8},
+ {"name": "wild_right_b", "pos": [8.0, 200.5, -7.0], "yaw_deg": 0, "pitch_deg": -6, "time_of_day": 0.5, "wait_s": 1},
+ {"name": "wild_close_4m", "pos": [-6.0, 200.5, -4.0], "yaw_deg": 0, "pitch_deg": -8, "time_of_day": 0.5, "wait_s": 8}
+]

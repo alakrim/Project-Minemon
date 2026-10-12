@@ -1,0 +1,99 @@
+{
+  "dragon_scale": {
+    "kind": "held_evo",
+    "name": "Dragon Scale",
+    "price": 2000
+  },
+  "fire_stone": {
+    "kind": "evo_stone",
+    "name": "Fire Stone",
+    "price": 3000
+  },
+  "great_ball": {
+    "catch_mult": 1.5,
+    "kind": "ball",
+    "name": "Great Ball",
+    "price": 600
+  },
+  "king_s_rock": {
+    "kind": "held_evo",
+    "name": "King’s Rock",
+    "price": 5000
+  },
+  "leaf_stone": {
+    "kind": "evo_stone",
+    "name": "Leaf Stone",
+    "price": 3000
+  },
+  "link_cable": {
+    "kind": "evo",
+    "name": "Link Cable",
+    "price": 2100
+  },
+  "master_ball": {
+    "catch_mult": 255.0,
+    "kind": "ball",
+    "name": "Master Ball",
+    "price": 0
+  },
+  "metal_coat": {
+    "kind": "held_evo",
+    "name": "Metal Coat",
+    "price": 2000
+  },
+  "moon_stone": {
+    "kind": "evo_stone",
+    "name": "Moon Stone",
+    "price": 3000
+  },
+  "poke_ball": {
+    "catch_mult": 1.0,
+    "kind": "ball",
+    "name": "Poké Ball",
+    "price": 200
+  },
+  "potion": {
+    "heal": 20,
+    "kind": "medicine",
+    "name": "Potion",
+    "price": 200
+  },
+  "sun_stone": {
+    "kind": "evo_stone",
+    "name": "Sun Stone",
+    "price": 3000
+  },
+  "super_potion": {
+    "heal": 50,
+    "kind": "medicine",
+    "name": "Super Potion",
+    "price": 700
+  },
+  "thunder_stone": {
+    "kind": "evo_stone",
+    "name": "Thunder Stone",
+    "price": 3000
+  },
+  "ultra_ball": {
+    "catch_mult": 2.0,
+    "kind": "ball",
+    "name": "Ultra Ball",
+    "price": 800
+  },
+  "umbral_ball": {
+    "catch_mult": 0.5,
+    "kind": "ball",
+    "name": "Umbral Ball",
+    "price": 0
+  },
+  "up_grade": {
+    "kind": "held_evo",
+    "name": "Upgrade",
+    "price": 2000
+  },
+  "water_stone": {
+    "kind": "evo_stone",
+    "name": "Water Stone",
+    "price": 3000
+  }
+}

@@ -1,0 +1,9 @@
+[
+	{"name": "fx_warmup", "pos": [-48, 180.5, -4.5], "yaw_deg": 0, "pitch_deg": -8, "time_of_day": 0.5, "wait_s": 2},
+	{"name": "fx_projectile", "pos": [-40, 180.5, -9], "yaw_deg": 0, "pitch_deg": -8, "time_of_day": 0.5, "wait_s": 2},
+	{"name": "fx_beam", "pos": [-24, 180.5, -6], "yaw_deg": 0, "pitch_deg": -8, "time_of_day": 0.5, "wait_s": 2},
+	{"name": "fx_melee", "pos": [-8, 180.5, -4.5], "yaw_deg": 0, "pitch_deg": -8, "time_of_day": 0.5, "wait_s": 2},
+	{"name": "fx_area", "pos": [8, 180.5, -4.5], "yaw_deg": 0, "pitch_deg": -8, "time_of_day": 0.5, "wait_s": 2},
+	{"name": "fx_aura", "pos": [24, 180.5, -4.5], "yaw_deg": 0, "pitch_deg": -8, "time_of_day": 0.5, "wait_s": 2},
+	{"name": "fx_cloud", "pos": [40, 180.5, -4.5], "yaw_deg": 0, "pitch_deg": -8, "time_of_day": 0.5, "wait_s": 2}
+]

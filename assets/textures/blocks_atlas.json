@@ -1,0 +1,54 @@
+{
+  "tile_size": 16,
+  "tiles": {
+    "grass_top": 0,
+    "grass_side": 1,
+    "dirt": 2,
+    "stone": 3,
+    "cobblestone": 4,
+    "gravel": 5,
+    "sand": 6,
+    "sandstone_top": 7,
+    "sandstone_side": 8,
+    "clay": 9,
+    "snow": 10,
+    "grass_side_snowed": 11,
+    "log_oak_side": 12,
+    "log_oak_top": 13,
+    "planks_oak": 14,
+    "leaves_oak": 15,
+    "log_birch_side": 16,
+    "log_birch_top": 17,
+    "leaves_birch": 18,
+    "log_spruce_side": 19,
+    "log_spruce_top": 20,
+    "leaves_spruce": 21,
+    "water": 22,
+    "tall_grass": 23,
+    "fern": 24,
+    "flower_red": 25,
+    "flower_yellow": 26,
+    "flower_blue": 27,
+    "flower_white": 28,
+    "dead_bush": 29,
+    "mushroom_brown": 30,
+    "mushroom_red": 31,
+    "coal_ore": 32,
+    "iron_ore": 33,
+    "mossy_cobblestone": 34
+  },
+  "tints": {
+    "grass": {
+      "plains": "#7fb04a",
+      "forest": "#6a9e3f",
+      "mountain": "#8aa86a",
+      "beach": "#8fb85a"
+    },
+    "foliage": {
+      "plains": "#6fa83e",
+      "forest": "#5c9437",
+      "mountain": "#7e9a5e",
+      "beach": "#86b05a"
+    }
+  }
+}

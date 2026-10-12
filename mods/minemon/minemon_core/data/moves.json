@@ -1,0 +1,3680 @@
+{
+  "absorb": {
+    "accuracy": 100,
+    "archetype": "projectile",
+    "cast_s": 0.5,
+    "category": "special",
+    "cooldown_s": 1.2,
+    "effect": {},
+    "name": "Absorb",
+    "power": 20,
+    "pp": 20,
+    "priority": 0,
+    "range_m": 12.0,
+    "type": "grass"
+  },
+  "acid": {
+    "accuracy": 100,
+    "archetype": "area_burst",
+    "cast_s": 0.6,
+    "category": "physical",
+    "cooldown_s": 2.0,
+    "effect": {
+      "stat_chance": 10,
+      "stat_changes": [
+        {
+          "stages": -1,
+          "stat": "spd",
+          "target": "target"
+        }
+      ]
+    },
+    "name": "Acid",
+    "power": 40,
+    "pp": 30,
+    "priority": 0,
+    "range_m": 6.0,
+    "type": "poison"
+  },
+  "acid_armor": {
+    "accuracy": null,
+    "archetype": "aura",
+    "cast_s": 0.3,
+    "category": "status",
+    "cooldown_s": 3.0,
+    "effect": {
+      "stat_changes": [
+        {
+          "stages": 2,
+          "stat": "def",
+          "target": "user"
+        }
+      ]
+    },
+    "name": "Acid Armor",
+    "power": null,
+    "pp": 40,
+    "priority": 0,
+    "range_m": 0.0,
+    "type": "poison"
+  },
+  "aeroblast": {
+    "accuracy": 95,
+    "archetype": "beam",
+    "cast_s": 0.5,
+    "category": "physical",
+    "cooldown_s": 2.0,
+    "effect": {},
+    "name": "Aeroblast",
+    "power": 100,
+    "pp": 5,
+    "priority": 0,
+    "range_m": 8.0,
+    "type": "flying"
+  },
+  "agility": {
+    "accuracy": null,
+    "archetype": "aura",
+    "cast_s": 0.3,
+    "category": "status",
+    "cooldown_s": 3.0,
+    "effect": {
+      "stat_changes": [
+        {
+          "stages": 2,
+          "stat": "spe",
+          "target": "user"
+        }
+      ]
+    },
+    "name": "Agility",
+    "power": null,
+    "pp": 30,
+    "priority": 0,
+    "range_m": 0.0,
+    "type": "psychic"
+  },
+  "amnesia": {
+    "accuracy": null,
+    "archetype": "aura",
+    "cast_s": 0.3,
+    "category": "status",
+    "cooldown_s": 3.0,
+    "effect": {
+      "stat_changes": [
+        {
+          "stages": 2,
+          "stat": "spd",
+          "target": "user"
+        }
+      ]
+    },
+    "name": "Amnesia",
+    "power": null,
+    "pp": 20,
+    "priority": 0,
+    "range_m": 0.0,
+    "type": "psychic"
+  },
+  "ancient_power": {
+    "accuracy": 100,
+    "archetype": "beam",
+    "cast_s": 0.4,
+    "category": "physical",
+    "cooldown_s": 1.0,
+    "effect": {
+      "stat_chance": 10,
+      "stat_changes": [
+        {
+          "stages": 1,
+          "stat": "atk",
+          "target": "target"
+        },
+        {
+          "stages": 1,
+          "stat": "def",
+          "target": "target"
+        },
+        {
+          "stages": 1,
+          "stat": "spa",
+          "target": "target"
+        },
+        {
+          "stages": 1,
+          "stat": "spd",
+          "target": "target"
+        },
+        {
+          "stages": 1,
+          "stat": "spe",
+          "target": "target"
+        }
+      ]
+    },
+    "name": "Ancient Power",
+    "power": 60,
+    "pp": 5,
+    "priority": 0,
+    "range_m": 8.0,
+    "type": "rock"
+  },
+  "aurora_beam": {
+    "accuracy": 100,
+    "archetype": "projectile",
+    "cast_s": 0.5,
+    "category": "special",
+    "cooldown_s": 1.2,
+    "effect": {
+      "stat_chance": 10,
+      "stat_changes": [
+        {
+          "stages": -1,
+          "stat": "atk",
+          "target": "target"
+        }
+      ]
+    },
+    "name": "Aurora Beam",
+    "power": 65,
+    "pp": 20,
+    "priority": 0,
+    "range_m": 12.0,
+    "type": "ice"
+  },
+  "barrage": {
+    "accuracy": 85,
+    "archetype": "beam",
+    "cast_s": 0.4,
+    "category": "physical",
+    "cooldown_s": 1.0,
+    "effect": {},
+    "name": "Barrage",
+    "power": 15,
+    "pp": 20,
+    "priority": 0,
+    "range_m": 8.0,
+    "type": "normal"
+  },
+  "barrier": {
+    "accuracy": null,
+    "archetype": "aura",
+    "cast_s": 0.3,
+    "category": "status",
+    "cooldown_s": 3.0,
+    "effect": {
+      "stat_changes": [
+        {
+          "stages": 2,
+          "stat": "def",
+          "target": "user"
+        }
+      ]
+    },
+    "name": "Barrier",
+    "power": null,
+    "pp": 30,
+    "priority": 0,
+    "range_m": 0.0,
+    "type": "psychic"
+  },
+  "baton_pass": {
+    "accuracy": null,
+    "archetype": "aura",
+    "cast_s": 0.3,
+    "category": "status",
+    "cooldown_s": 3.0,
+    "effect": {},
+    "name": "Baton Pass",
+    "power": null,
+    "pp": 40,
+    "priority": 0,
+    "range_m": 0.0,
+    "type": "normal"
+  },
+  "beat_up": {
+    "accuracy": 100,
+    "archetype": "projectile",
+    "cast_s": 0.5,
+    "category": "special",
+    "cooldown_s": 1.2,
+    "effect": {},
+    "name": "Beat Up",
+    "power": 10,
+    "pp": 10,
+    "priority": 0,
+    "range_m": 12.0,
+    "type": "dark"
+  },
+  "belly_drum": {
+    "accuracy": null,
+    "archetype": "aura",
+    "cast_s": 0.3,
+    "category": "status",
+    "cooldown_s": 3.0,
+    "effect": {},
+    "name": "Belly Drum",
+    "power": null,
+    "pp": 10,
+    "priority": 0,
+    "range_m": 0.0,
+    "type": "normal"
+  },
+  "bide": {
+    "accuracy": null,
+    "archetype": "melee_arc",
+    "cast_s": 0.3,
+    "category": "physical",
+    "cooldown_s": 0.6,
+    "effect": {},
+    "name": "Bide",
+    "power": null,
+    "pp": 10,
+    "priority": 1,
+    "range_m": 2.0,
+    "type": "normal"
+  },
+  "bind": {
+    "accuracy": 75,
+    "archetype": "melee_arc",
+    "cast_s": 0.3,
+    "category": "physical",
+    "cooldown_s": 0.8,
+    "effect": {
+      "status": "trap"
+    },
+    "name": "Bind",
+    "power": 15,
+    "pp": 20,
+    "priority": 0,
+    "range_m": 2.0,
+    "type": "normal"
+  },
+  "bite": {
+    "accuracy": 100,
+    "archetype": "projectile",
+    "cast_s": 0.5,
+    "category": "special",
+    "cooldown_s": 1.2,
+    "effect": {
+      "flinch_chance": 30
+    },
+    "name": "Bite",
+    "power": 60,
+    "pp": 25,
+    "priority": 0,
+    "range_m": 12.0,
+    "type": "dark"
+  },
+  "blizzard": {
+    "accuracy": 70,
+    "archetype": "area_burst",
+    "cast_s": 0.7,
+    "category": "special",
+    "cooldown_s": 3.0,
+    "effect": {
+      "status": "freeze",
+      "status_chance": 10
+    },
+    "name": "Blizzard",
+    "power": 120,
+    "pp": 5,
+    "priority": 0,
+    "range_m": 6.0,
+    "type": "ice"
+  },
+  "body_slam": {
+    "accuracy": 100,
+    "archetype": "melee_arc",
+    "cast_s": 0.4,
+    "category": "physical",
+    "cooldown_s": 1.8,
+    "effect": {
+      "status": "paralysis",
+      "status_chance": 30
+    },
+    "name": "Body Slam",
+    "power": 85,
+    "pp": 15,
+    "priority": 0,
+    "range_m": 2.0,
+    "type": "normal"
+  },
+  "bone_club": {
+    "accuracy": 85,
+    "archetype": "beam",
+    "cast_s": 0.4,
+    "category": "physical",
+    "cooldown_s": 1.0,
+    "effect": {
+      "flinch_chance": 10
+    },
+    "name": "Bone Club",
+    "power": 65,
+    "pp": 20,
+    "priority": 0,
+    "range_m": 8.0,
+    "type": "ground"
+  },
+  "bone_rush": {
+    "accuracy": 80,
+    "archetype": "beam",
+    "cast_s": 0.4,
+    "category": "physical",
+    "cooldown_s": 1.0,
+    "effect": {},
+    "name": "Bone Rush",
+    "power": 25,
+    "pp": 10,
+    "priority": 0,
+    "range_m": 8.0,
+    "type": "ground"
+  },
+  "bonemerang": {
+    "accuracy": 90,
+    "archetype": "beam",
+    "cast_s": 0.4,
+    "category": "physical",
+    "cooldown_s": 1.0,
+    "effect": {},
+    "name": "Bonemerang",
+    "power": 50,
+    "pp": 10,
+    "priority": 0,
+    "range_m": 8.0,
+    "type": "ground"
+  },
+  "bubble": {
+    "accuracy": 100,
+    "archetype": "area_burst",
+    "cast_s": 0.6,
+    "category": "special",
+    "cooldown_s": 2.0,
+    "effect": {
+      "stat_chance": 10,
+      "stat_changes": [
+        {
+          "stages": -1,
+          "stat": "spe",
+          "target": "target"
+        }
+      ]
+    },
+    "name": "Bubble",
+    "power": 20,
+    "pp": 30,
+    "priority": 0,
+    "range_m": 6.0,
+    "type": "water"
+  },
+  "bubble_beam": {
+    "accuracy": 100,
+    "archetype": "projectile",
+    "cast_s": 0.5,
+    "category": "special",
+    "cooldown_s": 1.2,
+    "effect": {
+      "stat_chance": 10,
+      "stat_changes": [
+        {
+          "stages": -1,
+          "stat": "spe",
+          "target": "target"
+        }
+      ]
+    },
+    "name": "Bubble Beam",
+    "power": 65,
+    "pp": 20,
+    "priority": 0,
+    "range_m": 12.0,
+    "type": "water"
+  },
+  "charm": {
+    "accuracy": 100,
+    "archetype": "status_cloud",
+    "cast_s": 0.4,
+    "category": "status",
+    "cooldown_s": 1.5,
+    "effect": {
+      "stat_changes": [
+        {
+          "stages": -2,
+          "stat": "atk",
+          "target": "target"
+        }
+      ]
+    },
+    "name": "Charm",
+    "power": null,
+    "pp": 20,
+    "priority": 0,
+    "range_m": 10.0,
+    "type": "normal"
+  },
+  "clamp": {
+    "accuracy": 75,
+    "archetype": "projectile",
+    "cast_s": 0.5,
+    "category": "special",
+    "cooldown_s": 1.2,
+    "effect": {
+      "status": "trap"
+    },
+    "name": "Clamp",
+    "power": 35,
+    "pp": 10,
+    "priority": 0,
+    "range_m": 12.0,
+    "type": "water"
+  },
+  "comet_punch": {
+    "accuracy": 85,
+    "archetype": "melee_arc",
+    "cast_s": 0.3,
+    "category": "physical",
+    "cooldown_s": 0.8,
+    "effect": {},
+    "name": "Comet Punch",
+    "power": 18,
+    "pp": 15,
+    "priority": 0,
+    "range_m": 2.0,
+    "type": "normal"
+  },
+  "confuse_ray": {
+    "accuracy": 100,
+    "archetype": "status_cloud",
+    "cast_s": 0.4,
+    "category": "status",
+    "cooldown_s": 1.5,
+    "effect": {
+      "status": "confusion"
+    },
+    "name": "Confuse Ray",
+    "power": null,
+    "pp": 10,
+    "priority": 0,
+    "range_m": 10.0,
+    "type": "ghost"
+  },
+  "confusion": {
+    "accuracy": 100,
+    "archetype": "projectile",
+    "cast_s": 0.5,
+    "category": "special",
+    "cooldown_s": 1.2,
+    "effect": {
+      "status": "confusion",
+      "status_chance": 10
+    },
+    "name": "Confusion",
+    "power": 50,
+    "pp": 25,
+    "priority": 0,
+    "range_m": 12.0,
+    "type": "psychic"
+  },
+  "constrict": {
+    "accuracy": 100,
+    "archetype": "melee_arc",
+    "cast_s": 0.3,
+    "category": "physical",
+    "cooldown_s": 0.8,
+    "effect": {
+      "stat_chance": 10,
+      "stat_changes": [
+        {
+          "stages": -1,
+          "stat": "spe",
+          "target": "target"
+        }
+      ]
+    },
+    "name": "Constrict",
+    "power": 10,
+    "pp": 35,
+    "priority": 0,
+    "range_m": 2.0,
+    "type": "normal"
+  },
+  "conversion": {
+    "accuracy": null,
+    "archetype": "aura",
+    "cast_s": 0.3,
+    "category": "status",
+    "cooldown_s": 3.0,
+    "effect": {},
+    "name": "Conversion",
+    "power": null,
+    "pp": 30,
+    "priority": 0,
+    "range_m": 0.0,
+    "type": "normal"
+  },
+  "conversion_2": {
+    "accuracy": null,
+    "archetype": "status_cloud",
+    "cast_s": 0.4,
+    "category": "status",
+    "cooldown_s": 1.5,
+    "effect": {},
+    "name": "Conversion 2",
+    "power": null,
+    "pp": 30,
+    "priority": 0,
+    "range_m": 10.0,
+    "type": "normal"
+  },
+  "cotton_spore": {
+    "accuracy": 85,
+    "archetype": "status_cloud",
+    "cast_s": 0.4,
+    "category": "status",
+    "cooldown_s": 1.5,
+    "effect": {
+      "stat_changes": [
+        {
+          "stages": -2,
+          "stat": "spe",
+          "target": "target"
+        }
+      ]
+    },
+    "name": "Cotton Spore",
+    "power": null,
+    "pp": 40,
+    "priority": 0,
+    "range_m": 10.0,
+    "type": "grass"
+  },
+  "counter": {
+    "accuracy": 100,
+    "archetype": "melee_arc",
+    "cast_s": 0.3,
+    "category": "physical",
+    "cooldown_s": 0.8,
+    "effect": {},
+    "name": "Counter",
+    "power": null,
+    "pp": 20,
+    "priority": -5,
+    "range_m": 2.0,
+    "type": "fighting"
+  },
+  "crabhammer": {
+    "accuracy": 85,
+    "archetype": "projectile",
+    "cast_s": 0.6,
+    "category": "special",
+    "cooldown_s": 2.2,
+    "effect": {},
+    "name": "Crabhammer",
+    "power": 90,
+    "pp": 10,
+    "priority": 0,
+    "range_m": 12.0,
+    "type": "water"
+  },
+  "cross_chop": {
+    "accuracy": 80,
+    "archetype": "melee_arc",
+    "cast_s": 0.4,
+    "category": "physical",
+    "cooldown_s": 1.8,
+    "effect": {},
+    "name": "Cross Chop",
+    "power": 100,
+    "pp": 5,
+    "priority": 0,
+    "range_m": 2.0,
+    "type": "fighting"
+  },
+  "crunch": {
+    "accuracy": 100,
+    "archetype": "projectile",
+    "cast_s": 0.6,
+    "category": "special",
+    "cooldown_s": 2.2,
+    "effect": {
+      "stat_chance": 20,
+      "stat_changes": [
+        {
+          "stages": -1,
+          "stat": "def",
+          "target": "target"
+        }
+      ]
+    },
+    "name": "Crunch",
+    "power": 80,
+    "pp": 15,
+    "priority": 0,
+    "range_m": 12.0,
+    "type": "dark"
+  },
+  "curse": {
+    "accuracy": null,
+    "archetype": "status_cloud",
+    "cast_s": 0.4,
+    "category": "status",
+    "cooldown_s": 1.5,
+    "effect": {},
+    "name": "Curse",
+    "power": null,
+    "pp": 10,
+    "priority": 0,
+    "range_m": 10.0,
+    "type": "ghost"
+  },
+  "defense_curl": {
+    "accuracy": null,
+    "archetype": "aura",
+    "cast_s": 0.3,
+    "category": "status",
+    "cooldown_s": 3.0,
+    "effect": {
+      "stat_changes": [
+        {
+          "stages": 1,
+          "stat": "def",
+          "target": "user"
+        }
+      ]
+    },
+    "name": "Defense Curl",
+    "power": null,
+    "pp": 40,
+    "priority": 0,
+    "range_m": 0.0,
+    "type": "normal"
+  },
+  "destiny_bond": {
+    "accuracy": null,
+    "archetype": "aura",
+    "cast_s": 0.3,
+    "category": "status",
+    "cooldown_s": 3.0,
+    "effect": {},
+    "name": "Destiny Bond",
+    "power": null,
+    "pp": 5,
+    "priority": 0,
+    "range_m": 0.0,
+    "type": "ghost"
+  },
+  "detect": {
+    "accuracy": null,
+    "archetype": "aura",
+    "cast_s": 0.3,
+    "category": "status",
+    "cooldown_s": 2.8,
+    "effect": {
+      "status": "protect"
+    },
+    "name": "Detect",
+    "power": null,
+    "pp": 5,
+    "priority": 4,
+    "range_m": 0.0,
+    "type": "fighting"
+  },
+  "dig": {
+    "accuracy": 100,
+    "archetype": "melee_arc",
+    "cast_s": 0.3,
+    "category": "physical",
+    "cooldown_s": 0.8,
+    "effect": {},
+    "name": "Dig",
+    "power": 60,
+    "pp": 10,
+    "priority": 0,
+    "range_m": 2.0,
+    "type": "ground"
+  },
+  "disable": {
+    "accuracy": 55,
+    "archetype": "status_cloud",
+    "cast_s": 0.4,
+    "category": "status",
+    "cooldown_s": 1.5,
+    "effect": {
+      "status": "disable"
+    },
+    "name": "Disable",
+    "power": null,
+    "pp": 20,
+    "priority": 0,
+    "range_m": 10.0,
+    "type": "normal"
+  },
+  "dizzy_punch": {
+    "accuracy": 100,
+    "archetype": "melee_arc",
+    "cast_s": 0.4,
+    "category": "physical",
+    "cooldown_s": 0.8,
+    "effect": {
+      "status": "confusion",
+      "status_chance": 20
+    },
+    "name": "Dizzy Punch",
+    "power": 70,
+    "pp": 10,
+    "priority": 0,
+    "range_m": 2.0,
+    "type": "normal"
+  },
+  "double_edge": {
+    "accuracy": 100,
+    "archetype": "melee_arc",
+    "cast_s": 0.4,
+    "category": "physical",
+    "cooldown_s": 1.8,
+    "effect": {},
+    "name": "Double-Edge",
+    "power": 120,
+    "pp": 15,
+    "priority": 0,
+    "range_m": 2.0,
+    "type": "normal"
+  },
+  "double_kick": {
+    "accuracy": 100,
+    "archetype": "melee_arc",
+    "cast_s": 0.3,
+    "category": "physical",
+    "cooldown_s": 0.8,
+    "effect": {},
+    "name": "Double Kick",
+    "power": 30,
+    "pp": 30,
+    "priority": 0,
+    "range_m": 2.0,
+    "type": "fighting"
+  },
+  "double_slap": {
+    "accuracy": 85,
+    "archetype": "melee_arc",
+    "cast_s": 0.3,
+    "category": "physical",
+    "cooldown_s": 0.8,
+    "effect": {},
+    "name": "Double Slap",
+    "power": 15,
+    "pp": 10,
+    "priority": 0,
+    "range_m": 2.0,
+    "type": "normal"
+  },
+  "double_team": {
+    "accuracy": null,
+    "archetype": "aura",
+    "cast_s": 0.3,
+    "category": "status",
+    "cooldown_s": 3.0,
+    "effect": {
+      "stat_changes": [
+        {
+          "stages": 1,
+          "stat": "eva",
+          "target": "user"
+        }
+      ]
+    },
+    "name": "Double Team",
+    "power": null,
+    "pp": 15,
+    "priority": 0,
+    "range_m": 0.0,
+    "type": "normal"
+  },
+  "dragon_rage": {
+    "accuracy": 100,
+    "archetype": "projectile",
+    "cast_s": 0.5,
+    "category": "special",
+    "cooldown_s": 1.2,
+    "effect": {},
+    "name": "Dragon Rage",
+    "power": null,
+    "pp": 10,
+    "priority": 0,
+    "range_m": 12.0,
+    "type": "dragon"
+  },
+  "dream_eater": {
+    "accuracy": 100,
+    "archetype": "projectile",
+    "cast_s": 0.6,
+    "category": "special",
+    "cooldown_s": 2.2,
+    "effect": {},
+    "name": "Dream Eater",
+    "power": 100,
+    "pp": 15,
+    "priority": 0,
+    "range_m": 12.0,
+    "type": "psychic"
+  },
+  "drill_peck": {
+    "accuracy": 100,
+    "archetype": "melee_arc",
+    "cast_s": 0.4,
+    "category": "physical",
+    "cooldown_s": 1.8,
+    "effect": {},
+    "name": "Drill Peck",
+    "power": 80,
+    "pp": 20,
+    "priority": 0,
+    "range_m": 2.0,
+    "type": "flying"
+  },
+  "earthquake": {
+    "accuracy": 100,
+    "archetype": "area_burst",
+    "cast_s": 0.7,
+    "category": "physical",
+    "cooldown_s": 3.0,
+    "effect": {},
+    "name": "Earthquake",
+    "power": 100,
+    "pp": 10,
+    "priority": 0,
+    "range_m": 6.0,
+    "type": "ground"
+  },
+  "egg_bomb": {
+    "accuracy": 75,
+    "archetype": "beam",
+    "cast_s": 0.5,
+    "category": "physical",
+    "cooldown_s": 2.0,
+    "effect": {},
+    "name": "Egg Bomb",
+    "power": 100,
+    "pp": 10,
+    "priority": 0,
+    "range_m": 8.0,
+    "type": "normal"
+  },
+  "ember": {
+    "accuracy": 100,
+    "archetype": "projectile",
+    "cast_s": 0.5,
+    "category": "special",
+    "cooldown_s": 1.2,
+    "effect": {
+      "status": "burn",
+      "status_chance": 10
+    },
+    "name": "Ember",
+    "power": 40,
+    "pp": 25,
+    "priority": 0,
+    "range_m": 12.0,
+    "type": "fire"
+  },
+  "encore": {
+    "accuracy": 100,
+    "archetype": "status_cloud",
+    "cast_s": 0.4,
+    "category": "status",
+    "cooldown_s": 1.5,
+    "effect": {},
+    "name": "Encore",
+    "power": null,
+    "pp": 5,
+    "priority": 0,
+    "range_m": 10.0,
+    "type": "normal"
+  },
+  "endure": {
+    "accuracy": null,
+    "archetype": "aura",
+    "cast_s": 0.3,
+    "category": "status",
+    "cooldown_s": 2.8,
+    "effect": {},
+    "name": "Endure",
+    "power": null,
+    "pp": 10,
+    "priority": 4,
+    "range_m": 0.0,
+    "type": "normal"
+  },
+  "explosion": {
+    "accuracy": 100,
+    "archetype": "area_burst",
+    "cast_s": 0.7,
+    "category": "physical",
+    "cooldown_s": 3.0,
+    "effect": {},
+    "name": "Explosion",
+    "power": 250,
+    "pp": 5,
+    "priority": 0,
+    "range_m": 6.0,
+    "type": "normal"
+  },
+  "extreme_speed": {
+    "accuracy": 100,
+    "archetype": "melee_arc",
+    "cast_s": 0.4,
+    "category": "physical",
+    "cooldown_s": 1.6,
+    "effect": {},
+    "name": "Extreme Speed",
+    "power": 80,
+    "pp": 5,
+    "priority": 2,
+    "range_m": 2.0,
+    "type": "normal"
+  },
+  "false_swipe": {
+    "accuracy": 100,
+    "archetype": "melee_arc",
+    "cast_s": 0.3,
+    "category": "physical",
+    "cooldown_s": 0.8,
+    "effect": {},
+    "name": "False Swipe",
+    "power": 40,
+    "pp": 40,
+    "priority": 0,
+    "range_m": 2.0,
+    "type": "normal"
+  },
+  "feint_attack": {
+    "accuracy": null,
+    "archetype": "projectile",
+    "cast_s": 0.5,
+    "category": "special",
+    "cooldown_s": 1.2,
+    "effect": {},
+    "name": "Feint Attack",
+    "power": 60,
+    "pp": 20,
+    "priority": 0,
+    "range_m": 12.0,
+    "type": "dark"
+  },
+  "fire_blast": {
+    "accuracy": 85,
+    "archetype": "projectile",
+    "cast_s": 0.6,
+    "category": "special",
+    "cooldown_s": 2.2,
+    "effect": {
+      "status": "burn",
+      "status_chance": 10
+    },
+    "name": "Fire Blast",
+    "power": 120,
+    "pp": 5,
+    "priority": 0,
+    "range_m": 12.0,
+    "type": "fire"
+  },
+  "fire_punch": {
+    "accuracy": 100,
+    "archetype": "projectile",
+    "cast_s": 0.6,
+    "category": "special",
+    "cooldown_s": 1.2,
+    "effect": {
+      "status": "burn",
+      "status_chance": 10
+    },
+    "name": "Fire Punch",
+    "power": 75,
+    "pp": 15,
+    "priority": 0,
+    "range_m": 12.0,
+    "type": "fire"
+  },
+  "fire_spin": {
+    "accuracy": 70,
+    "archetype": "projectile",
+    "cast_s": 0.5,
+    "category": "special",
+    "cooldown_s": 1.2,
+    "effect": {
+      "status": "trap"
+    },
+    "name": "Fire Spin",
+    "power": 15,
+    "pp": 15,
+    "priority": 0,
+    "range_m": 12.0,
+    "type": "fire"
+  },
+  "fissure": {
+    "accuracy": 30,
+    "archetype": "beam",
+    "cast_s": 0.4,
+    "category": "physical",
+    "cooldown_s": 1.0,
+    "effect": {},
+    "name": "Fissure",
+    "power": null,
+    "pp": 5,
+    "priority": 0,
+    "range_m": 8.0,
+    "type": "ground"
+  },
+  "flail": {
+    "accuracy": 100,
+    "archetype": "melee_arc",
+    "cast_s": 0.3,
+    "category": "physical",
+    "cooldown_s": 0.8,
+    "effect": {},
+    "name": "Flail",
+    "power": null,
+    "pp": 15,
+    "priority": 0,
+    "range_m": 2.0,
+    "type": "normal"
+  },
+  "flame_wheel": {
+    "accuracy": 100,
+    "archetype": "projectile",
+    "cast_s": 0.5,
+    "category": "special",
+    "cooldown_s": 1.2,
+    "effect": {
+      "status": "burn",
+      "status_chance": 10
+    },
+    "name": "Flame Wheel",
+    "power": 60,
+    "pp": 25,
+    "priority": 0,
+    "range_m": 12.0,
+    "type": "fire"
+  },
+  "flamethrower": {
+    "accuracy": 100,
+    "archetype": "projectile",
+    "cast_s": 0.6,
+    "category": "special",
+    "cooldown_s": 2.2,
+    "effect": {
+      "status": "burn",
+      "status_chance": 10
+    },
+    "name": "Flamethrower",
+    "power": 95,
+    "pp": 15,
+    "priority": 0,
+    "range_m": 12.0,
+    "type": "fire"
+  },
+  "focus_energy": {
+    "accuracy": null,
+    "archetype": "aura",
+    "cast_s": 0.3,
+    "category": "status",
+    "cooldown_s": 3.0,
+    "effect": {},
+    "name": "Focus Energy",
+    "power": null,
+    "pp": 30,
+    "priority": 0,
+    "range_m": 0.0,
+    "type": "normal"
+  },
+  "foresight": {
+    "accuracy": null,
+    "archetype": "status_cloud",
+    "cast_s": 0.4,
+    "category": "status",
+    "cooldown_s": 1.5,
+    "effect": {
+      "status": "no-type-immunity"
+    },
+    "name": "Foresight",
+    "power": null,
+    "pp": 40,
+    "priority": 0,
+    "range_m": 10.0,
+    "type": "normal"
+  },
+  "fury_attack": {
+    "accuracy": 85,
+    "archetype": "melee_arc",
+    "cast_s": 0.3,
+    "category": "physical",
+    "cooldown_s": 0.8,
+    "effect": {},
+    "name": "Fury Attack",
+    "power": 15,
+    "pp": 20,
+    "priority": 0,
+    "range_m": 2.0,
+    "type": "normal"
+  },
+  "fury_swipes": {
+    "accuracy": 80,
+    "archetype": "melee_arc",
+    "cast_s": 0.3,
+    "category": "physical",
+    "cooldown_s": 0.8,
+    "effect": {},
+    "name": "Fury Swipes",
+    "power": 18,
+    "pp": 15,
+    "priority": 0,
+    "range_m": 2.0,
+    "type": "normal"
+  },
+  "future_sight": {
+    "accuracy": 90,
+    "archetype": "projectile",
+    "cast_s": 0.6,
+    "category": "special",
+    "cooldown_s": 2.2,
+    "effect": {},
+    "name": "Future Sight",
+    "power": 80,
+    "pp": 15,
+    "priority": 0,
+    "range_m": 12.0,
+    "type": "psychic"
+  },
+  "giga_drain": {
+    "accuracy": 100,
+    "archetype": "projectile",
+    "cast_s": 0.5,
+    "category": "special",
+    "cooldown_s": 1.2,
+    "effect": {},
+    "name": "Giga Drain",
+    "power": 60,
+    "pp": 5,
+    "priority": 0,
+    "range_m": 12.0,
+    "type": "grass"
+  },
+  "glare": {
+    "accuracy": 75,
+    "archetype": "status_cloud",
+    "cast_s": 0.4,
+    "category": "status",
+    "cooldown_s": 1.5,
+    "effect": {
+      "status": "paralysis"
+    },
+    "name": "Glare",
+    "power": null,
+    "pp": 30,
+    "priority": 0,
+    "range_m": 10.0,
+    "type": "normal"
+  },
+  "growl": {
+    "accuracy": 100,
+    "archetype": "status_cloud",
+    "cast_s": 0.4,
+    "category": "status",
+    "cooldown_s": 1.5,
+    "effect": {
+      "stat_changes": [
+        {
+          "stages": -1,
+          "stat": "atk",
+          "target": "target"
+        }
+      ]
+    },
+    "name": "Growl",
+    "power": null,
+    "pp": 40,
+    "priority": 0,
+    "range_m": 10.0,
+    "type": "normal"
+  },
+  "growth": {
+    "accuracy": null,
+    "archetype": "aura",
+    "cast_s": 0.3,
+    "category": "status",
+    "cooldown_s": 3.0,
+    "effect": {
+      "stat_changes": [
+        {
+          "stages": 1,
+          "stat": "atk",
+          "target": "user"
+        },
+        {
+          "stages": 1,
+          "stat": "spa",
+          "target": "user"
+        }
+      ]
+    },
+    "name": "Growth",
+    "power": null,
+    "pp": 40,
+    "priority": 0,
+    "range_m": 0.0,
+    "type": "normal"
+  },
+  "guillotine": {
+    "accuracy": 30,
+    "archetype": "melee_arc",
+    "cast_s": 0.3,
+    "category": "physical",
+    "cooldown_s": 0.8,
+    "effect": {},
+    "name": "Guillotine",
+    "power": null,
+    "pp": 5,
+    "priority": 0,
+    "range_m": 2.0,
+    "type": "normal"
+  },
+  "gust": {
+    "accuracy": 100,
+    "archetype": "beam",
+    "cast_s": 0.4,
+    "category": "physical",
+    "cooldown_s": 1.0,
+    "effect": {},
+    "name": "Gust",
+    "power": 40,
+    "pp": 35,
+    "priority": 0,
+    "range_m": 8.0,
+    "type": "flying"
+  },
+  "harden": {
+    "accuracy": null,
+    "archetype": "aura",
+    "cast_s": 0.3,
+    "category": "status",
+    "cooldown_s": 3.0,
+    "effect": {
+      "stat_changes": [
+        {
+          "stages": 1,
+          "stat": "def",
+          "target": "user"
+        }
+      ]
+    },
+    "name": "Harden",
+    "power": null,
+    "pp": 30,
+    "priority": 0,
+    "range_m": 0.0,
+    "type": "normal"
+  },
+  "haze": {
+    "accuracy": null,
+    "archetype": "status_cloud",
+    "cast_s": 0.4,
+    "category": "status",
+    "cooldown_s": 1.5,
+    "effect": {},
+    "name": "Haze",
+    "power": null,
+    "pp": 30,
+    "priority": 0,
+    "range_m": 10.0,
+    "type": "ice"
+  },
+  "headbutt": {
+    "accuracy": 100,
+    "archetype": "melee_arc",
+    "cast_s": 0.4,
+    "category": "physical",
+    "cooldown_s": 0.8,
+    "effect": {
+      "flinch_chance": 30
+    },
+    "name": "Headbutt",
+    "power": 70,
+    "pp": 15,
+    "priority": 0,
+    "range_m": 2.0,
+    "type": "normal"
+  },
+  "heal_bell": {
+    "accuracy": null,
+    "archetype": "aura",
+    "cast_s": 0.3,
+    "category": "status",
+    "cooldown_s": 3.0,
+    "effect": {},
+    "name": "Heal Bell",
+    "power": null,
+    "pp": 5,
+    "priority": 0,
+    "range_m": 0.0,
+    "type": "normal"
+  },
+  "hidden_power": {
+    "accuracy": 100,
+    "archetype": "beam",
+    "cast_s": 0.4,
+    "category": "physical",
+    "cooldown_s": 1.0,
+    "effect": {},
+    "name": "Hidden Power",
+    "power": 1,
+    "pp": 15,
+    "priority": 0,
+    "range_m": 8.0,
+    "type": "normal"
+  },
+  "high_jump_kick": {
+    "accuracy": 90,
+    "archetype": "melee_arc",
+    "cast_s": 0.4,
+    "category": "physical",
+    "cooldown_s": 1.8,
+    "effect": {},
+    "name": "High Jump Kick",
+    "power": 85,
+    "pp": 20,
+    "priority": 0,
+    "range_m": 2.0,
+    "type": "fighting"
+  },
+  "horn_attack": {
+    "accuracy": 100,
+    "archetype": "melee_arc",
+    "cast_s": 0.3,
+    "category": "physical",
+    "cooldown_s": 0.8,
+    "effect": {},
+    "name": "Horn Attack",
+    "power": 65,
+    "pp": 25,
+    "priority": 0,
+    "range_m": 2.0,
+    "type": "normal"
+  },
+  "horn_drill": {
+    "accuracy": 30,
+    "archetype": "melee_arc",
+    "cast_s": 0.3,
+    "category": "physical",
+    "cooldown_s": 0.8,
+    "effect": {},
+    "name": "Horn Drill",
+    "power": null,
+    "pp": 5,
+    "priority": 0,
+    "range_m": 2.0,
+    "type": "normal"
+  },
+  "hydro_pump": {
+    "accuracy": 80,
+    "archetype": "projectile",
+    "cast_s": 0.6,
+    "category": "special",
+    "cooldown_s": 2.2,
+    "effect": {},
+    "name": "Hydro Pump",
+    "power": 120,
+    "pp": 5,
+    "priority": 0,
+    "range_m": 12.0,
+    "type": "water"
+  },
+  "hyper_beam": {
+    "accuracy": 90,
+    "archetype": "beam",
+    "cast_s": 0.5,
+    "category": "physical",
+    "cooldown_s": 2.0,
+    "effect": {},
+    "name": "Hyper Beam",
+    "power": 150,
+    "pp": 5,
+    "priority": 0,
+    "range_m": 8.0,
+    "type": "normal"
+  },
+  "hyper_fang": {
+    "accuracy": 90,
+    "archetype": "melee_arc",
+    "cast_s": 0.4,
+    "category": "physical",
+    "cooldown_s": 1.8,
+    "effect": {
+      "flinch_chance": 10
+    },
+    "name": "Hyper Fang",
+    "power": 80,
+    "pp": 15,
+    "priority": 0,
+    "range_m": 2.0,
+    "type": "normal"
+  },
+  "hypnosis": {
+    "accuracy": 60,
+    "archetype": "status_cloud",
+    "cast_s": 0.4,
+    "category": "status",
+    "cooldown_s": 1.5,
+    "effect": {
+      "status": "sleep"
+    },
+    "name": "Hypnosis",
+    "power": null,
+    "pp": 20,
+    "priority": 0,
+    "range_m": 10.0,
+    "type": "psychic"
+  },
+  "ice_beam": {
+    "accuracy": 100,
+    "archetype": "projectile",
+    "cast_s": 0.6,
+    "category": "special",
+    "cooldown_s": 2.2,
+    "effect": {
+      "status": "freeze",
+      "status_chance": 10
+    },
+    "name": "Ice Beam",
+    "power": 95,
+    "pp": 10,
+    "priority": 0,
+    "range_m": 12.0,
+    "type": "ice"
+  },
+  "ice_punch": {
+    "accuracy": 100,
+    "archetype": "projectile",
+    "cast_s": 0.6,
+    "category": "special",
+    "cooldown_s": 1.2,
+    "effect": {
+      "status": "freeze",
+      "status_chance": 10
+    },
+    "name": "Ice Punch",
+    "power": 75,
+    "pp": 15,
+    "priority": 0,
+    "range_m": 12.0,
+    "type": "ice"
+  },
+  "jump_kick": {
+    "accuracy": 95,
+    "archetype": "melee_arc",
+    "cast_s": 0.4,
+    "category": "physical",
+    "cooldown_s": 0.8,
+    "effect": {},
+    "name": "Jump Kick",
+    "power": 70,
+    "pp": 25,
+    "priority": 0,
+    "range_m": 2.0,
+    "type": "fighting"
+  },
+  "karate_chop": {
+    "accuracy": 100,
+    "archetype": "melee_arc",
+    "cast_s": 0.3,
+    "category": "physical",
+    "cooldown_s": 0.8,
+    "effect": {},
+    "name": "Karate Chop",
+    "power": 50,
+    "pp": 25,
+    "priority": 0,
+    "range_m": 2.0,
+    "type": "fighting"
+  },
+  "kinesis": {
+    "accuracy": 80,
+    "archetype": "status_cloud",
+    "cast_s": 0.4,
+    "category": "status",
+    "cooldown_s": 1.5,
+    "effect": {
+      "stat_changes": [
+        {
+          "stages": -1,
+          "stat": "acc",
+          "target": "target"
+        }
+      ]
+    },
+    "name": "Kinesis",
+    "power": null,
+    "pp": 15,
+    "priority": 0,
+    "range_m": 10.0,
+    "type": "psychic"
+  },
+  "leech_life": {
+    "accuracy": 100,
+    "archetype": "melee_arc",
+    "cast_s": 0.3,
+    "category": "physical",
+    "cooldown_s": 0.8,
+    "effect": {},
+    "name": "Leech Life",
+    "power": 20,
+    "pp": 15,
+    "priority": 0,
+    "range_m": 2.0,
+    "type": "bug"
+  },
+  "leech_seed": {
+    "accuracy": 90,
+    "archetype": "status_cloud",
+    "cast_s": 0.4,
+    "category": "status",
+    "cooldown_s": 1.5,
+    "effect": {
+      "status": "leech-seed"
+    },
+    "name": "Leech Seed",
+    "power": null,
+    "pp": 10,
+    "priority": 0,
+    "range_m": 10.0,
+    "type": "grass"
+  },
+  "leer": {
+    "accuracy": 100,
+    "archetype": "status_cloud",
+    "cast_s": 0.4,
+    "category": "status",
+    "cooldown_s": 1.5,
+    "effect": {
+      "stat_changes": [
+        {
+          "stages": -1,
+          "stat": "def",
+          "target": "target"
+        }
+      ]
+    },
+    "name": "Leer",
+    "power": null,
+    "pp": 30,
+    "priority": 0,
+    "range_m": 10.0,
+    "type": "normal"
+  },
+  "lick": {
+    "accuracy": 100,
+    "archetype": "melee_arc",
+    "cast_s": 0.3,
+    "category": "physical",
+    "cooldown_s": 0.8,
+    "effect": {
+      "status": "paralysis",
+      "status_chance": 30
+    },
+    "name": "Lick",
+    "power": 20,
+    "pp": 30,
+    "priority": 0,
+    "range_m": 2.0,
+    "type": "ghost"
+  },
+  "light_screen": {
+    "accuracy": null,
+    "archetype": "aura",
+    "cast_s": 0.3,
+    "category": "status",
+    "cooldown_s": 3.0,
+    "effect": {},
+    "name": "Light Screen",
+    "power": null,
+    "pp": 30,
+    "priority": 0,
+    "range_m": 0.0,
+    "type": "psychic"
+  },
+  "lock_on": {
+    "accuracy": null,
+    "archetype": "status_cloud",
+    "cast_s": 0.4,
+    "category": "status",
+    "cooldown_s": 1.5,
+    "effect": {},
+    "name": "Lock-On",
+    "power": null,
+    "pp": 5,
+    "priority": 0,
+    "range_m": 10.0,
+    "type": "normal"
+  },
+  "lovely_kiss": {
+    "accuracy": 75,
+    "archetype": "status_cloud",
+    "cast_s": 0.4,
+    "category": "status",
+    "cooldown_s": 1.5,
+    "effect": {
+      "status": "sleep"
+    },
+    "name": "Lovely Kiss",
+    "power": null,
+    "pp": 10,
+    "priority": 0,
+    "range_m": 10.0,
+    "type": "normal"
+  },
+  "low_kick": {
+    "accuracy": 90,
+    "archetype": "melee_arc",
+    "cast_s": 0.3,
+    "category": "physical",
+    "cooldown_s": 0.8,
+    "effect": {},
+    "name": "Low Kick",
+    "power": 50,
+    "pp": 20,
+    "priority": 0,
+    "range_m": 2.0,
+    "type": "fighting"
+  },
+  "mach_punch": {
+    "accuracy": 100,
+    "archetype": "melee_arc",
+    "cast_s": 0.3,
+    "category": "physical",
+    "cooldown_s": 0.6,
+    "effect": {},
+    "name": "Mach Punch",
+    "power": 40,
+    "pp": 30,
+    "priority": 1,
+    "range_m": 2.0,
+    "type": "fighting"
+  },
+  "magnitude": {
+    "accuracy": 100,
+    "archetype": "area_burst",
+    "cast_s": 0.6,
+    "category": "physical",
+    "cooldown_s": 2.0,
+    "effect": {},
+    "name": "Magnitude",
+    "power": null,
+    "pp": 30,
+    "priority": 0,
+    "range_m": 6.0,
+    "type": "ground"
+  },
+  "mean_look": {
+    "accuracy": null,
+    "archetype": "status_cloud",
+    "cast_s": 0.4,
+    "category": "status",
+    "cooldown_s": 1.5,
+    "effect": {},
+    "name": "Mean Look",
+    "power": null,
+    "pp": 5,
+    "priority": 0,
+    "range_m": 10.0,
+    "type": "normal"
+  },
+  "meditate": {
+    "accuracy": null,
+    "archetype": "aura",
+    "cast_s": 0.3,
+    "category": "status",
+    "cooldown_s": 3.0,
+    "effect": {
+      "stat_changes": [
+        {
+          "stages": 1,
+          "stat": "atk",
+          "target": "user"
+        }
+      ]
+    },
+    "name": "Meditate",
+    "power": null,
+    "pp": 40,
+    "priority": 0,
+    "range_m": 0.0,
+    "type": "psychic"
+  },
+  "mega_drain": {
+    "accuracy": 100,
+    "archetype": "projectile",
+    "cast_s": 0.5,
+    "category": "special",
+    "cooldown_s": 1.2,
+    "effect": {},
+    "name": "Mega Drain",
+    "power": 40,
+    "pp": 10,
+    "priority": 0,
+    "range_m": 12.0,
+    "type": "grass"
+  },
+  "mega_kick": {
+    "accuracy": 75,
+    "archetype": "melee_arc",
+    "cast_s": 0.4,
+    "category": "physical",
+    "cooldown_s": 1.8,
+    "effect": {},
+    "name": "Mega Kick",
+    "power": 120,
+    "pp": 5,
+    "priority": 0,
+    "range_m": 2.0,
+    "type": "normal"
+  },
+  "mega_punch": {
+    "accuracy": 85,
+    "archetype": "melee_arc",
+    "cast_s": 0.4,
+    "category": "physical",
+    "cooldown_s": 1.8,
+    "effect": {},
+    "name": "Mega Punch",
+    "power": 80,
+    "pp": 20,
+    "priority": 0,
+    "range_m": 2.0,
+    "type": "normal"
+  },
+  "megahorn": {
+    "accuracy": 85,
+    "archetype": "melee_arc",
+    "cast_s": 0.4,
+    "category": "physical",
+    "cooldown_s": 1.8,
+    "effect": {},
+    "name": "Megahorn",
+    "power": 120,
+    "pp": 10,
+    "priority": 0,
+    "range_m": 2.0,
+    "type": "bug"
+  },
+  "metal_claw": {
+    "accuracy": 95,
+    "archetype": "melee_arc",
+    "cast_s": 0.3,
+    "category": "physical",
+    "cooldown_s": 0.8,
+    "effect": {
+      "stat_chance": 10,
+      "stat_changes": [
+        {
+          "stages": 1,
+          "stat": "atk",
+          "target": "target"
+        }
+      ]
+    },
+    "name": "Metal Claw",
+    "power": 50,
+    "pp": 35,
+    "priority": 0,
+    "range_m": 2.0,
+    "type": "steel"
+  },
+  "metronome": {
+    "accuracy": null,
+    "archetype": "aura",
+    "cast_s": 0.3,
+    "category": "status",
+    "cooldown_s": 3.0,
+    "effect": {},
+    "name": "Metronome",
+    "power": null,
+    "pp": 10,
+    "priority": 0,
+    "range_m": 0.0,
+    "type": "normal"
+  },
+  "milk_drink": {
+    "accuracy": null,
+    "archetype": "aura",
+    "cast_s": 0.3,
+    "category": "status",
+    "cooldown_s": 3.0,
+    "effect": {},
+    "name": "Milk Drink",
+    "power": null,
+    "pp": 5,
+    "priority": 0,
+    "range_m": 0.0,
+    "type": "normal"
+  },
+  "mimic": {
+    "accuracy": null,
+    "archetype": "status_cloud",
+    "cast_s": 0.4,
+    "category": "status",
+    "cooldown_s": 1.5,
+    "effect": {},
+    "name": "Mimic",
+    "power": null,
+    "pp": 10,
+    "priority": 0,
+    "range_m": 10.0,
+    "type": "normal"
+  },
+  "mind_reader": {
+    "accuracy": null,
+    "archetype": "status_cloud",
+    "cast_s": 0.4,
+    "category": "status",
+    "cooldown_s": 1.5,
+    "effect": {},
+    "name": "Mind Reader",
+    "power": null,
+    "pp": 40,
+    "priority": 0,
+    "range_m": 10.0,
+    "type": "normal"
+  },
+  "minimize": {
+    "accuracy": null,
+    "archetype": "aura",
+    "cast_s": 0.3,
+    "category": "status",
+    "cooldown_s": 3.0,
+    "effect": {
+      "stat_changes": [
+        {
+          "stages": 2,
+          "stat": "eva",
+          "target": "user"
+        }
+      ]
+    },
+    "name": "Minimize",
+    "power": null,
+    "pp": 20,
+    "priority": 0,
+    "range_m": 0.0,
+    "type": "normal"
+  },
+  "mirror_coat": {
+    "accuracy": 100,
+    "archetype": "projectile",
+    "cast_s": 0.5,
+    "category": "special",
+    "cooldown_s": 1.2,
+    "effect": {},
+    "name": "Mirror Coat",
+    "power": null,
+    "pp": 20,
+    "priority": -5,
+    "range_m": 12.0,
+    "type": "psychic"
+  },
+  "mirror_move": {
+    "accuracy": null,
+    "archetype": "status_cloud",
+    "cast_s": 0.4,
+    "category": "status",
+    "cooldown_s": 1.5,
+    "effect": {},
+    "name": "Mirror Move",
+    "power": null,
+    "pp": 20,
+    "priority": 0,
+    "range_m": 10.0,
+    "type": "flying"
+  },
+  "mist": {
+    "accuracy": null,
+    "archetype": "aura",
+    "cast_s": 0.3,
+    "category": "status",
+    "cooldown_s": 3.0,
+    "effect": {},
+    "name": "Mist",
+    "power": null,
+    "pp": 30,
+    "priority": 0,
+    "range_m": 0.0,
+    "type": "ice"
+  },
+  "moonlight": {
+    "accuracy": null,
+    "archetype": "aura",
+    "cast_s": 0.3,
+    "category": "status",
+    "cooldown_s": 3.0,
+    "effect": {},
+    "name": "Moonlight",
+    "power": null,
+    "pp": 5,
+    "priority": 0,
+    "range_m": 0.0,
+    "type": "normal"
+  },
+  "morning_sun": {
+    "accuracy": null,
+    "archetype": "aura",
+    "cast_s": 0.3,
+    "category": "status",
+    "cooldown_s": 3.0,
+    "effect": {},
+    "name": "Morning Sun",
+    "power": null,
+    "pp": 5,
+    "priority": 0,
+    "range_m": 0.0,
+    "type": "normal"
+  },
+  "night_shade": {
+    "accuracy": 100,
+    "archetype": "beam",
+    "cast_s": 0.4,
+    "category": "physical",
+    "cooldown_s": 1.0,
+    "effect": {},
+    "name": "Night Shade",
+    "power": null,
+    "pp": 15,
+    "priority": 0,
+    "range_m": 8.0,
+    "type": "ghost"
+  },
+  "octazooka": {
+    "accuracy": 85,
+    "archetype": "projectile",
+    "cast_s": 0.5,
+    "category": "special",
+    "cooldown_s": 1.2,
+    "effect": {
+      "stat_chance": 50,
+      "stat_changes": [
+        {
+          "stages": -1,
+          "stat": "acc",
+          "target": "target"
+        }
+      ]
+    },
+    "name": "Octazooka",
+    "power": 65,
+    "pp": 10,
+    "priority": 0,
+    "range_m": 12.0,
+    "type": "water"
+  },
+  "outrage": {
+    "accuracy": 100,
+    "archetype": "projectile",
+    "cast_s": 0.6,
+    "category": "special",
+    "cooldown_s": 2.2,
+    "effect": {},
+    "name": "Outrage",
+    "power": 90,
+    "pp": 15,
+    "priority": 0,
+    "range_m": 12.0,
+    "type": "dragon"
+  },
+  "pain_split": {
+    "accuracy": null,
+    "archetype": "status_cloud",
+    "cast_s": 0.4,
+    "category": "status",
+    "cooldown_s": 1.5,
+    "effect": {},
+    "name": "Pain Split",
+    "power": null,
+    "pp": 20,
+    "priority": 0,
+    "range_m": 10.0,
+    "type": "normal"
+  },
+  "pay_day": {
+    "accuracy": 100,
+    "archetype": "beam",
+    "cast_s": 0.4,
+    "category": "physical",
+    "cooldown_s": 1.0,
+    "effect": {},
+    "name": "Pay Day",
+    "power": 40,
+    "pp": 20,
+    "priority": 0,
+    "range_m": 8.0,
+    "type": "normal"
+  },
+  "peck": {
+    "accuracy": 100,
+    "archetype": "melee_arc",
+    "cast_s": 0.3,
+    "category": "physical",
+    "cooldown_s": 0.8,
+    "effect": {},
+    "name": "Peck",
+    "power": 35,
+    "pp": 35,
+    "priority": 0,
+    "range_m": 2.0,
+    "type": "flying"
+  },
+  "perish_song": {
+    "accuracy": null,
+    "archetype": "status_cloud",
+    "cast_s": 0.4,
+    "category": "status",
+    "cooldown_s": 1.5,
+    "effect": {
+      "status": "perish-song"
+    },
+    "name": "Perish Song",
+    "power": null,
+    "pp": 5,
+    "priority": 0,
+    "range_m": 10.0,
+    "type": "normal"
+  },
+  "petal_dance": {
+    "accuracy": 100,
+    "archetype": "projectile",
+    "cast_s": 0.6,
+    "category": "special",
+    "cooldown_s": 1.2,
+    "effect": {},
+    "name": "Petal Dance",
+    "power": 70,
+    "pp": 20,
+    "priority": 0,
+    "range_m": 12.0,
+    "type": "grass"
+  },
+  "pin_missile": {
+    "accuracy": 85,
+    "archetype": "beam",
+    "cast_s": 0.4,
+    "category": "physical",
+    "cooldown_s": 1.0,
+    "effect": {},
+    "name": "Pin Missile",
+    "power": 14,
+    "pp": 20,
+    "priority": 0,
+    "range_m": 8.0,
+    "type": "bug"
+  },
+  "poison_gas": {
+    "accuracy": 55,
+    "archetype": "status_cloud",
+    "cast_s": 0.4,
+    "category": "status",
+    "cooldown_s": 1.5,
+    "effect": {
+      "status": "poison"
+    },
+    "name": "Poison Gas",
+    "power": null,
+    "pp": 40,
+    "priority": 0,
+    "range_m": 10.0,
+    "type": "poison"
+  },
+  "poison_powder": {
+    "accuracy": 75,
+    "archetype": "status_cloud",
+    "cast_s": 0.4,
+    "category": "status",
+    "cooldown_s": 1.5,
+    "effect": {
+      "status": "poison"
+    },
+    "name": "Poison Powder",
+    "power": null,
+    "pp": 35,
+    "priority": 0,
+    "range_m": 10.0,
+    "type": "poison"
+  },
+  "poison_sting": {
+    "accuracy": 100,
+    "archetype": "beam",
+    "cast_s": 0.4,
+    "category": "physical",
+    "cooldown_s": 1.0,
+    "effect": {
+      "status": "poison",
+      "status_chance": 30
+    },
+    "name": "Poison Sting",
+    "power": 15,
+    "pp": 35,
+    "priority": 0,
+    "range_m": 8.0,
+    "type": "poison"
+  },
+  "pound": {
+    "accuracy": 100,
+    "archetype": "melee_arc",
+    "cast_s": 0.3,
+    "category": "physical",
+    "cooldown_s": 0.8,
+    "effect": {},
+    "name": "Pound",
+    "power": 40,
+    "pp": 35,
+    "priority": 0,
+    "range_m": 2.0,
+    "type": "normal"
+  },
+  "powder_snow": {
+    "accuracy": 100,
+    "archetype": "area_burst",
+    "cast_s": 0.6,
+    "category": "special",
+    "cooldown_s": 2.0,
+    "effect": {
+      "status": "freeze",
+      "status_chance": 10
+    },
+    "name": "Powder Snow",
+    "power": 40,
+    "pp": 25,
+    "priority": 0,
+    "range_m": 6.0,
+    "type": "ice"
+  },
+  "present": {
+    "accuracy": 90,
+    "archetype": "beam",
+    "cast_s": 0.4,
+    "category": "physical",
+    "cooldown_s": 1.0,
+    "effect": {},
+    "name": "Present",
+    "power": null,
+    "pp": 15,
+    "priority": 0,
+    "range_m": 8.0,
+    "type": "normal"
+  },
+  "protect": {
+    "accuracy": null,
+    "archetype": "aura",
+    "cast_s": 0.3,
+    "category": "status",
+    "cooldown_s": 2.8,
+    "effect": {
+      "status": "protect"
+    },
+    "name": "Protect",
+    "power": null,
+    "pp": 10,
+    "priority": 4,
+    "range_m": 0.0,
+    "type": "normal"
+  },
+  "psybeam": {
+    "accuracy": 100,
+    "archetype": "projectile",
+    "cast_s": 0.5,
+    "category": "special",
+    "cooldown_s": 1.2,
+    "effect": {
+      "status": "confusion",
+      "status_chance": 10
+    },
+    "name": "Psybeam",
+    "power": 65,
+    "pp": 20,
+    "priority": 0,
+    "range_m": 12.0,
+    "type": "psychic"
+  },
+  "psych_up": {
+    "accuracy": null,
+    "archetype": "status_cloud",
+    "cast_s": 0.4,
+    "category": "status",
+    "cooldown_s": 1.5,
+    "effect": {},
+    "name": "Psych Up",
+    "power": null,
+    "pp": 10,
+    "priority": 0,
+    "range_m": 10.0,
+    "type": "normal"
+  },
+  "psychic": {
+    "accuracy": 100,
+    "archetype": "projectile",
+    "cast_s": 0.6,
+    "category": "special",
+    "cooldown_s": 2.2,
+    "effect": {
+      "stat_chance": 10,
+      "stat_changes": [
+        {
+          "stages": -1,
+          "stat": "spd",
+          "target": "target"
+        }
+      ]
+    },
+    "name": "Psychic",
+    "power": 90,
+    "pp": 10,
+    "priority": 0,
+    "range_m": 12.0,
+    "type": "psychic"
+  },
+  "psywave": {
+    "accuracy": 80,
+    "archetype": "projectile",
+    "cast_s": 0.5,
+    "category": "special",
+    "cooldown_s": 1.2,
+    "effect": {},
+    "name": "Psywave",
+    "power": null,
+    "pp": 15,
+    "priority": 0,
+    "range_m": 12.0,
+    "type": "psychic"
+  },
+  "pursuit": {
+    "accuracy": 100,
+    "archetype": "projectile",
+    "cast_s": 0.5,
+    "category": "special",
+    "cooldown_s": 1.2,
+    "effect": {},
+    "name": "Pursuit",
+    "power": 40,
+    "pp": 20,
+    "priority": 0,
+    "range_m": 12.0,
+    "type": "dark"
+  },
+  "quick_attack": {
+    "accuracy": 100,
+    "archetype": "melee_arc",
+    "cast_s": 0.3,
+    "category": "physical",
+    "cooldown_s": 0.6,
+    "effect": {},
+    "name": "Quick Attack",
+    "power": 40,
+    "pp": 30,
+    "priority": 1,
+    "range_m": 2.0,
+    "type": "normal"
+  },
+  "rage": {
+    "accuracy": 100,
+    "archetype": "melee_arc",
+    "cast_s": 0.3,
+    "category": "physical",
+    "cooldown_s": 0.8,
+    "effect": {},
+    "name": "Rage",
+    "power": 20,
+    "pp": 20,
+    "priority": 0,
+    "range_m": 2.0,
+    "type": "normal"
+  },
+  "rain_dance": {
+    "accuracy": null,
+    "archetype": "status_cloud",
+    "cast_s": 0.4,
+    "category": "status",
+    "cooldown_s": 1.5,
+    "effect": {},
+    "name": "Rain Dance",
+    "power": null,
+    "pp": 5,
+    "priority": 0,
+    "range_m": 10.0,
+    "type": "water"
+  },
+  "rapid_spin": {
+    "accuracy": 100,
+    "archetype": "melee_arc",
+    "cast_s": 0.3,
+    "category": "physical",
+    "cooldown_s": 0.8,
+    "effect": {
+      "stat_changes": [
+        {
+          "stages": 1,
+          "stat": "spe",
+          "target": "target"
+        }
+      ]
+    },
+    "name": "Rapid Spin",
+    "power": 20,
+    "pp": 40,
+    "priority": 0,
+    "range_m": 2.0,
+    "type": "normal"
+  },
+  "razor_leaf": {
+    "accuracy": 95,
+    "archetype": "area_burst",
+    "cast_s": 0.6,
+    "category": "special",
+    "cooldown_s": 2.0,
+    "effect": {},
+    "name": "Razor Leaf",
+    "power": 55,
+    "pp": 25,
+    "priority": 0,
+    "range_m": 6.0,
+    "type": "grass"
+  },
+  "recover": {
+    "accuracy": null,
+    "archetype": "aura",
+    "cast_s": 0.3,
+    "category": "status",
+    "cooldown_s": 3.0,
+    "effect": {},
+    "name": "Recover",
+    "power": null,
+    "pp": 20,
+    "priority": 0,
+    "range_m": 0.0,
+    "type": "normal"
+  },
+  "reflect": {
+    "accuracy": null,
+    "archetype": "aura",
+    "cast_s": 0.3,
+    "category": "status",
+    "cooldown_s": 3.0,
+    "effect": {},
+    "name": "Reflect",
+    "power": null,
+    "pp": 20,
+    "priority": 0,
+    "range_m": 0.0,
+    "type": "psychic"
+  },
+  "rest": {
+    "accuracy": null,
+    "archetype": "aura",
+    "cast_s": 0.3,
+    "category": "status",
+    "cooldown_s": 3.0,
+    "effect": {},
+    "name": "Rest",
+    "power": null,
+    "pp": 5,
+    "priority": 0,
+    "range_m": 0.0,
+    "type": "psychic"
+  },
+  "reversal": {
+    "accuracy": 100,
+    "archetype": "melee_arc",
+    "cast_s": 0.3,
+    "category": "physical",
+    "cooldown_s": 0.8,
+    "effect": {},
+    "name": "Reversal",
+    "power": null,
+    "pp": 15,
+    "priority": 0,
+    "range_m": 2.0,
+    "type": "fighting"
+  },
+  "roar": {
+    "accuracy": 100,
+    "archetype": "status_cloud",
+    "cast_s": 0.4,
+    "category": "status",
+    "cooldown_s": 1.5,
+    "effect": {},
+    "name": "Roar",
+    "power": null,
+    "pp": 20,
+    "priority": -6,
+    "range_m": 10.0,
+    "type": "normal"
+  },
+  "rock_slide": {
+    "accuracy": 90,
+    "archetype": "area_burst",
+    "cast_s": 0.7,
+    "category": "physical",
+    "cooldown_s": 2.0,
+    "effect": {
+      "flinch_chance": 30
+    },
+    "name": "Rock Slide",
+    "power": 75,
+    "pp": 10,
+    "priority": 0,
+    "range_m": 6.0,
+    "type": "rock"
+  },
+  "rock_throw": {
+    "accuracy": 90,
+    "archetype": "beam",
+    "cast_s": 0.4,
+    "category": "physical",
+    "cooldown_s": 1.0,
+    "effect": {},
+    "name": "Rock Throw",
+    "power": 50,
+    "pp": 15,
+    "priority": 0,
+    "range_m": 8.0,
+    "type": "rock"
+  },
+  "rolling_kick": {
+    "accuracy": 85,
+    "archetype": "melee_arc",
+    "cast_s": 0.3,
+    "category": "physical",
+    "cooldown_s": 0.8,
+    "effect": {
+      "flinch_chance": 30
+    },
+    "name": "Rolling Kick",
+    "power": 60,
+    "pp": 15,
+    "priority": 0,
+    "range_m": 2.0,
+    "type": "fighting"
+  },
+  "rollout": {
+    "accuracy": 90,
+    "archetype": "melee_arc",
+    "cast_s": 0.3,
+    "category": "physical",
+    "cooldown_s": 0.8,
+    "effect": {},
+    "name": "Rollout",
+    "power": 30,
+    "pp": 20,
+    "priority": 0,
+    "range_m": 2.0,
+    "type": "rock"
+  },
+  "sacred_fire": {
+    "accuracy": 95,
+    "archetype": "projectile",
+    "cast_s": 0.6,
+    "category": "special",
+    "cooldown_s": 2.2,
+    "effect": {
+      "status": "burn",
+      "status_chance": 50
+    },
+    "name": "Sacred Fire",
+    "power": 100,
+    "pp": 5,
+    "priority": 0,
+    "range_m": 12.0,
+    "type": "fire"
+  },
+  "safeguard": {
+    "accuracy": null,
+    "archetype": "aura",
+    "cast_s": 0.3,
+    "category": "status",
+    "cooldown_s": 3.0,
+    "effect": {},
+    "name": "Safeguard",
+    "power": null,
+    "pp": 25,
+    "priority": 0,
+    "range_m": 0.0,
+    "type": "normal"
+  },
+  "sand_attack": {
+    "accuracy": 100,
+    "archetype": "status_cloud",
+    "cast_s": 0.4,
+    "category": "status",
+    "cooldown_s": 1.5,
+    "effect": {
+      "stat_changes": [
+        {
+          "stages": -1,
+          "stat": "acc",
+          "target": "target"
+        }
+      ]
+    },
+    "name": "Sand Attack",
+    "power": null,
+    "pp": 15,
+    "priority": 0,
+    "range_m": 10.0,
+    "type": "ground"
+  },
+  "sandstorm": {
+    "accuracy": null,
+    "archetype": "status_cloud",
+    "cast_s": 0.4,
+    "category": "status",
+    "cooldown_s": 1.5,
+    "effect": {},
+    "name": "Sandstorm",
+    "power": null,
+    "pp": 10,
+    "priority": 0,
+    "range_m": 10.0,
+    "type": "rock"
+  },
+  "scary_face": {
+    "accuracy": 90,
+    "archetype": "status_cloud",
+    "cast_s": 0.4,
+    "category": "status",
+    "cooldown_s": 1.5,
+    "effect": {
+      "stat_changes": [
+        {
+          "stages": -2,
+          "stat": "spe",
+          "target": "target"
+        }
+      ]
+    },
+    "name": "Scary Face",
+    "power": null,
+    "pp": 10,
+    "priority": 0,
+    "range_m": 10.0,
+    "type": "normal"
+  },
+  "scratch": {
+    "accuracy": 100,
+    "archetype": "melee_arc",
+    "cast_s": 0.3,
+    "category": "physical",
+    "cooldown_s": 0.8,
+    "effect": {},
+    "name": "Scratch",
+    "power": 40,
+    "pp": 35,
+    "priority": 0,
+    "range_m": 2.0,
+    "type": "normal"
+  },
+  "screech": {
+    "accuracy": 85,
+    "archetype": "status_cloud",
+    "cast_s": 0.4,
+    "category": "status",
+    "cooldown_s": 1.5,
+    "effect": {
+      "stat_changes": [
+        {
+          "stages": -2,
+          "stat": "def",
+          "target": "target"
+        }
+      ]
+    },
+    "name": "Screech",
+    "power": null,
+    "pp": 40,
+    "priority": 0,
+    "range_m": 10.0,
+    "type": "normal"
+  },
+  "seismic_toss": {
+    "accuracy": 100,
+    "archetype": "melee_arc",
+    "cast_s": 0.3,
+    "category": "physical",
+    "cooldown_s": 0.8,
+    "effect": {},
+    "name": "Seismic Toss",
+    "power": null,
+    "pp": 20,
+    "priority": 0,
+    "range_m": 2.0,
+    "type": "fighting"
+  },
+  "self_destruct": {
+    "accuracy": 100,
+    "archetype": "area_burst",
+    "cast_s": 0.7,
+    "category": "physical",
+    "cooldown_s": 3.0,
+    "effect": {},
+    "name": "Self-Destruct",
+    "power": 200,
+    "pp": 5,
+    "priority": 0,
+    "range_m": 6.0,
+    "type": "normal"
+  },
+  "sharpen": {
+    "accuracy": null,
+    "archetype": "aura",
+    "cast_s": 0.3,
+    "category": "status",
+    "cooldown_s": 3.0,
+    "effect": {
+      "stat_changes": [
+        {
+          "stages": 1,
+          "stat": "atk",
+          "target": "user"
+        }
+      ]
+    },
+    "name": "Sharpen",
+    "power": null,
+    "pp": 30,
+    "priority": 0,
+    "range_m": 0.0,
+    "type": "normal"
+  },
+  "sing": {
+    "accuracy": 55,
+    "archetype": "status_cloud",
+    "cast_s": 0.4,
+    "category": "status",
+    "cooldown_s": 1.5,
+    "effect": {
+      "status": "sleep"
+    },
+    "name": "Sing",
+    "power": null,
+    "pp": 15,
+    "priority": 0,
+    "range_m": 10.0,
+    "type": "normal"
+  },
+  "sketch": {
+    "accuracy": null,
+    "archetype": "status_cloud",
+    "cast_s": 0.4,
+    "category": "status",
+    "cooldown_s": 1.5,
+    "effect": {},
+    "name": "Sketch",
+    "power": null,
+    "pp": 1,
+    "priority": 0,
+    "range_m": 10.0,
+    "type": "normal"
+  },
+  "skull_bash": {
+    "accuracy": 100,
+    "archetype": "melee_arc",
+    "cast_s": 0.4,
+    "category": "physical",
+    "cooldown_s": 1.8,
+    "effect": {},
+    "name": "Skull Bash",
+    "power": 100,
+    "pp": 15,
+    "priority": 0,
+    "range_m": 2.0,
+    "type": "normal"
+  },
+  "sky_attack": {
+    "accuracy": 90,
+    "archetype": "beam",
+    "cast_s": 0.5,
+    "category": "physical",
+    "cooldown_s": 2.0,
+    "effect": {
+      "flinch_chance": 30
+    },
+    "name": "Sky Attack",
+    "power": 140,
+    "pp": 5,
+    "priority": 0,
+    "range_m": 8.0,
+    "type": "flying"
+  },
+  "slam": {
+    "accuracy": 75,
+    "archetype": "melee_arc",
+    "cast_s": 0.4,
+    "category": "physical",
+    "cooldown_s": 1.8,
+    "effect": {},
+    "name": "Slam",
+    "power": 80,
+    "pp": 20,
+    "priority": 0,
+    "range_m": 2.0,
+    "type": "normal"
+  },
+  "slash": {
+    "accuracy": 100,
+    "archetype": "melee_arc",
+    "cast_s": 0.4,
+    "category": "physical",
+    "cooldown_s": 0.8,
+    "effect": {},
+    "name": "Slash",
+    "power": 70,
+    "pp": 20,
+    "priority": 0,
+    "range_m": 2.0,
+    "type": "normal"
+  },
+  "sleep_powder": {
+    "accuracy": 75,
+    "archetype": "status_cloud",
+    "cast_s": 0.4,
+    "category": "status",
+    "cooldown_s": 1.5,
+    "effect": {
+      "status": "sleep"
+    },
+    "name": "Sleep Powder",
+    "power": null,
+    "pp": 15,
+    "priority": 0,
+    "range_m": 10.0,
+    "type": "grass"
+  },
+  "sludge": {
+    "accuracy": 100,
+    "archetype": "beam",
+    "cast_s": 0.4,
+    "category": "physical",
+    "cooldown_s": 1.0,
+    "effect": {
+      "status": "poison",
+      "status_chance": 30
+    },
+    "name": "Sludge",
+    "power": 65,
+    "pp": 20,
+    "priority": 0,
+    "range_m": 8.0,
+    "type": "poison"
+  },
+  "sludge_bomb": {
+    "accuracy": 100,
+    "archetype": "beam",
+    "cast_s": 0.5,
+    "category": "physical",
+    "cooldown_s": 2.0,
+    "effect": {
+      "status": "poison",
+      "status_chance": 30
+    },
+    "name": "Sludge Bomb",
+    "power": 90,
+    "pp": 10,
+    "priority": 0,
+    "range_m": 8.0,
+    "type": "poison"
+  },
+  "smog": {
+    "accuracy": 70,
+    "archetype": "beam",
+    "cast_s": 0.4,
+    "category": "physical",
+    "cooldown_s": 1.0,
+    "effect": {
+      "status": "poison",
+      "status_chance": 40
+    },
+    "name": "Smog",
+    "power": 20,
+    "pp": 20,
+    "priority": 0,
+    "range_m": 8.0,
+    "type": "poison"
+  },
+  "smokescreen": {
+    "accuracy": 100,
+    "archetype": "status_cloud",
+    "cast_s": 0.4,
+    "category": "status",
+    "cooldown_s": 1.5,
+    "effect": {
+      "stat_changes": [
+        {
+          "stages": -1,
+          "stat": "acc",
+          "target": "target"
+        }
+      ]
+    },
+    "name": "Smokescreen",
+    "power": null,
+    "pp": 20,
+    "priority": 0,
+    "range_m": 10.0,
+    "type": "normal"
+  },
+  "snore": {
+    "accuracy": 100,
+    "archetype": "beam",
+    "cast_s": 0.4,
+    "category": "physical",
+    "cooldown_s": 1.0,
+    "effect": {
+      "flinch_chance": 30
+    },
+    "name": "Snore",
+    "power": 40,
+    "pp": 15,
+    "priority": 0,
+    "range_m": 8.0,
+    "type": "normal"
+  },
+  "soft_boiled": {
+    "accuracy": null,
+    "archetype": "aura",
+    "cast_s": 0.3,
+    "category": "status",
+    "cooldown_s": 3.0,
+    "effect": {},
+    "name": "Soft-Boiled",
+    "power": null,
+    "pp": 5,
+    "priority": 0,
+    "range_m": 0.0,
+    "type": "normal"
+  },
+  "solar_beam": {
+    "accuracy": 100,
+    "archetype": "projectile",
+    "cast_s": 0.6,
+    "category": "special",
+    "cooldown_s": 2.2,
+    "effect": {},
+    "name": "Solar Beam",
+    "power": 120,
+    "pp": 10,
+    "priority": 0,
+    "range_m": 12.0,
+    "type": "grass"
+  },
+  "sonic_boom": {
+    "accuracy": 90,
+    "archetype": "beam",
+    "cast_s": 0.4,
+    "category": "physical",
+    "cooldown_s": 1.0,
+    "effect": {},
+    "name": "Sonic Boom",
+    "power": null,
+    "pp": 20,
+    "priority": 0,
+    "range_m": 8.0,
+    "type": "normal"
+  },
+  "spark": {
+    "accuracy": 100,
+    "archetype": "projectile",
+    "cast_s": 0.5,
+    "category": "special",
+    "cooldown_s": 1.2,
+    "effect": {
+      "status": "paralysis",
+      "status_chance": 30
+    },
+    "name": "Spark",
+    "power": 65,
+    "pp": 20,
+    "priority": 0,
+    "range_m": 12.0,
+    "type": "electric"
+  },
+  "spider_web": {
+    "accuracy": null,
+    "archetype": "status_cloud",
+    "cast_s": 0.4,
+    "category": "status",
+    "cooldown_s": 1.5,
+    "effect": {},
+    "name": "Spider Web",
+    "power": null,
+    "pp": 10,
+    "priority": 0,
+    "range_m": 10.0,
+    "type": "bug"
+  },
+  "spike_cannon": {
+    "accuracy": 100,
+    "archetype": "beam",
+    "cast_s": 0.4,
+    "category": "physical",
+    "cooldown_s": 1.0,
+    "effect": {},
+    "name": "Spike Cannon",
+    "power": 20,
+    "pp": 15,
+    "priority": 0,
+    "range_m": 8.0,
+    "type": "normal"
+  },
+  "spikes": {
+    "accuracy": null,
+    "archetype": "status_cloud",
+    "cast_s": 0.4,
+    "category": "status",
+    "cooldown_s": 1.5,
+    "effect": {},
+    "name": "Spikes",
+    "power": null,
+    "pp": 20,
+    "priority": 0,
+    "range_m": 10.0,
+    "type": "ground"
+  },
+  "spite": {
+    "accuracy": 100,
+    "archetype": "status_cloud",
+    "cast_s": 0.4,
+    "category": "status",
+    "cooldown_s": 1.5,
+    "effect": {},
+    "name": "Spite",
+    "power": null,
+    "pp": 10,
+    "priority": 0,
+    "range_m": 10.0,
+    "type": "ghost"
+  },
+  "splash": {
+    "accuracy": null,
+    "archetype": "aura",
+    "cast_s": 0.3,
+    "category": "status",
+    "cooldown_s": 3.0,
+    "effect": {},
+    "name": "Splash",
+    "power": null,
+    "pp": 40,
+    "priority": 0,
+    "range_m": 0.0,
+    "type": "normal"
+  },
+  "spore": {
+    "accuracy": 100,
+    "archetype": "status_cloud",
+    "cast_s": 0.4,
+    "category": "status",
+    "cooldown_s": 1.5,
+    "effect": {
+      "status": "sleep"
+    },
+    "name": "Spore",
+    "power": null,
+    "pp": 15,
+    "priority": 0,
+    "range_m": 10.0,
+    "type": "grass"
+  },
+  "steel_wing": {
+    "accuracy": 90,
+    "archetype": "melee_arc",
+    "cast_s": 0.4,
+    "category": "physical",
+    "cooldown_s": 0.8,
+    "effect": {
+      "stat_chance": 10,
+      "stat_changes": [
+        {
+          "stages": 1,
+          "stat": "def",
+          "target": "target"
+        }
+      ]
+    },
+    "name": "Steel Wing",
+    "power": 70,
+    "pp": 25,
+    "priority": 0,
+    "range_m": 2.0,
+    "type": "steel"
+  },
+  "stomp": {
+    "accuracy": 100,
+    "archetype": "melee_arc",
+    "cast_s": 0.3,
+    "category": "physical",
+    "cooldown_s": 0.8,
+    "effect": {
+      "flinch_chance": 30
+    },
+    "name": "Stomp",
+    "power": 65,
+    "pp": 20,
+    "priority": 0,
+    "range_m": 2.0,
+    "type": "normal"
+  },
+  "string_shot": {
+    "accuracy": 95,
+    "archetype": "status_cloud",
+    "cast_s": 0.4,
+    "category": "status",
+    "cooldown_s": 1.5,
+    "effect": {
+      "stat_changes": [
+        {
+          "stages": -2,
+          "stat": "spe",
+          "target": "target"
+        }
+      ]
+    },
+    "name": "String Shot",
+    "power": null,
+    "pp": 40,
+    "priority": 0,
+    "range_m": 10.0,
+    "type": "bug"
+  },
+  "stun_spore": {
+    "accuracy": 75,
+    "archetype": "status_cloud",
+    "cast_s": 0.4,
+    "category": "status",
+    "cooldown_s": 1.5,
+    "effect": {
+      "status": "paralysis"
+    },
+    "name": "Stun Spore",
+    "power": null,
+    "pp": 30,
+    "priority": 0,
+    "range_m": 10.0,
+    "type": "grass"
+  },
+  "submission": {
+    "accuracy": 80,
+    "archetype": "melee_arc",
+    "cast_s": 0.4,
+    "category": "physical",
+    "cooldown_s": 1.8,
+    "effect": {},
+    "name": "Submission",
+    "power": 80,
+    "pp": 25,
+    "priority": 0,
+    "range_m": 2.0,
+    "type": "fighting"
+  },
+  "substitute": {
+    "accuracy": null,
+    "archetype": "aura",
+    "cast_s": 0.3,
+    "category": "status",
+    "cooldown_s": 3.0,
+    "effect": {},
+    "name": "Substitute",
+    "power": null,
+    "pp": 10,
+    "priority": 0,
+    "range_m": 0.0,
+    "type": "normal"
+  },
+  "sunny_day": {
+    "accuracy": null,
+    "archetype": "status_cloud",
+    "cast_s": 0.4,
+    "category": "status",
+    "cooldown_s": 1.5,
+    "effect": {},
+    "name": "Sunny Day",
+    "power": null,
+    "pp": 5,
+    "priority": 0,
+    "range_m": 10.0,
+    "type": "fire"
+  },
+  "super_fang": {
+    "accuracy": 90,
+    "archetype": "melee_arc",
+    "cast_s": 0.3,
+    "category": "physical",
+    "cooldown_s": 0.8,
+    "effect": {},
+    "name": "Super Fang",
+    "power": null,
+    "pp": 10,
+    "priority": 0,
+    "range_m": 2.0,
+    "type": "normal"
+  },
+  "supersonic": {
+    "accuracy": 55,
+    "archetype": "status_cloud",
+    "cast_s": 0.4,
+    "category": "status",
+    "cooldown_s": 1.5,
+    "effect": {
+      "status": "confusion"
+    },
+    "name": "Supersonic",
+    "power": null,
+    "pp": 20,
+    "priority": 0,
+    "range_m": 10.0,
+    "type": "normal"
+  },
+  "swagger": {
+    "accuracy": 90,
+    "archetype": "status_cloud",
+    "cast_s": 0.4,
+    "category": "status",
+    "cooldown_s": 1.5,
+    "effect": {
+      "stat_changes": [
+        {
+          "stages": 2,
+          "stat": "atk",
+          "target": "target"
+        }
+      ],
+      "status": "confusion"
+    },
+    "name": "Swagger",
+    "power": null,
+    "pp": 15,
+    "priority": 0,
+    "range_m": 10.0,
+    "type": "normal"
+  },
+  "sweet_kiss": {
+    "accuracy": 75,
+    "archetype": "status_cloud",
+    "cast_s": 0.4,
+    "category": "status",
+    "cooldown_s": 1.5,
+    "effect": {
+      "status": "confusion"
+    },
+    "name": "Sweet Kiss",
+    "power": null,
+    "pp": 10,
+    "priority": 0,
+    "range_m": 10.0,
+    "type": "normal"
+  },
+  "sweet_scent": {
+    "accuracy": 100,
+    "archetype": "status_cloud",
+    "cast_s": 0.4,
+    "category": "status",
+    "cooldown_s": 1.5,
+    "effect": {
+      "stat_changes": [
+        {
+          "stages": -2,
+          "stat": "eva",
+          "target": "target"
+        }
+      ]
+    },
+    "name": "Sweet Scent",
+    "power": null,
+    "pp": 20,
+    "priority": 0,
+    "range_m": 10.0,
+    "type": "normal"
+  },
+  "swift": {
+    "accuracy": null,
+    "archetype": "area_burst",
+    "cast_s": 0.6,
+    "category": "physical",
+    "cooldown_s": 2.0,
+    "effect": {},
+    "name": "Swift",
+    "power": 60,
+    "pp": 20,
+    "priority": 0,
+    "range_m": 6.0,
+    "type": "normal"
+  },
+  "swords_dance": {
+    "accuracy": null,
+    "archetype": "aura",
+    "cast_s": 0.3,
+    "category": "status",
+    "cooldown_s": 3.0,
+    "effect": {
+      "stat_changes": [
+        {
+          "stages": 2,
+          "stat": "atk",
+          "target": "user"
+        }
+      ]
+    },
+    "name": "Swords Dance",
+    "power": null,
+    "pp": 30,
+    "priority": 0,
+    "range_m": 0.0,
+    "type": "normal"
+  },
+  "synthesis": {
+    "accuracy": null,
+    "archetype": "aura",
+    "cast_s": 0.3,
+    "category": "status",
+    "cooldown_s": 3.0,
+    "effect": {},
+    "name": "Synthesis",
+    "power": null,
+    "pp": 5,
+    "priority": 0,
+    "range_m": 0.0,
+    "type": "grass"
+  },
+  "tackle": {
+    "accuracy": 95,
+    "archetype": "melee_arc",
+    "cast_s": 0.3,
+    "category": "physical",
+    "cooldown_s": 0.8,
+    "effect": {},
+    "name": "Tackle",
+    "power": 35,
+    "pp": 35,
+    "priority": 0,
+    "range_m": 2.0,
+    "type": "normal"
+  },
+  "tail_whip": {
+    "accuracy": 100,
+    "archetype": "status_cloud",
+    "cast_s": 0.4,
+    "category": "status",
+    "cooldown_s": 1.5,
+    "effect": {
+      "stat_changes": [
+        {
+          "stages": -1,
+          "stat": "def",
+          "target": "target"
+        }
+      ]
+    },
+    "name": "Tail Whip",
+    "power": null,
+    "pp": 30,
+    "priority": 0,
+    "range_m": 10.0,
+    "type": "normal"
+  },
+  "take_down": {
+    "accuracy": 85,
+    "archetype": "melee_arc",
+    "cast_s": 0.4,
+    "category": "physical",
+    "cooldown_s": 1.8,
+    "effect": {},
+    "name": "Take Down",
+    "power": 90,
+    "pp": 20,
+    "priority": 0,
+    "range_m": 2.0,
+    "type": "normal"
+  },
+  "teleport": {
+    "accuracy": null,
+    "archetype": "aura",
+    "cast_s": 0.3,
+    "category": "status",
+    "cooldown_s": 3.0,
+    "effect": {},
+    "name": "Teleport",
+    "power": null,
+    "pp": 20,
+    "priority": 0,
+    "range_m": 0.0,
+    "type": "psychic"
+  },
+  "thrash": {
+    "accuracy": 100,
+    "archetype": "melee_arc",
+    "cast_s": 0.4,
+    "category": "physical",
+    "cooldown_s": 1.8,
+    "effect": {},
+    "name": "Thrash",
+    "power": 90,
+    "pp": 20,
+    "priority": 0,
+    "range_m": 2.0,
+    "type": "normal"
+  },
+  "thunder": {
+    "accuracy": 70,
+    "archetype": "projectile",
+    "cast_s": 0.6,
+    "category": "special",
+    "cooldown_s": 2.2,
+    "effect": {
+      "status": "paralysis",
+      "status_chance": 30
+    },
+    "name": "Thunder",
+    "power": 120,
+    "pp": 10,
+    "priority": 0,
+    "range_m": 12.0,
+    "type": "electric"
+  },
+  "thunder_punch": {
+    "accuracy": 100,
+    "archetype": "projectile",
+    "cast_s": 0.6,
+    "category": "special",
+    "cooldown_s": 1.2,
+    "effect": {
+      "status": "paralysis",
+      "status_chance": 10
+    },
+    "name": "Thunder Punch",
+    "power": 75,
+    "pp": 15,
+    "priority": 0,
+    "range_m": 12.0,
+    "type": "electric"
+  },
+  "thunder_shock": {
+    "accuracy": 100,
+    "archetype": "projectile",
+    "cast_s": 0.5,
+    "category": "special",
+    "cooldown_s": 1.2,
+    "effect": {
+      "status": "paralysis",
+      "status_chance": 10
+    },
+    "name": "Thunder Shock",
+    "power": 40,
+    "pp": 30,
+    "priority": 0,
+    "range_m": 12.0,
+    "type": "electric"
+  },
+  "thunder_wave": {
+    "accuracy": 100,
+    "archetype": "status_cloud",
+    "cast_s": 0.4,
+    "category": "status",
+    "cooldown_s": 1.5,
+    "effect": {
+      "status": "paralysis"
+    },
+    "name": "Thunder Wave",
+    "power": null,
+    "pp": 20,
+    "priority": 0,
+    "range_m": 10.0,
+    "type": "electric"
+  },
+  "thunderbolt": {
+    "accuracy": 100,
+    "archetype": "projectile",
+    "cast_s": 0.6,
+    "category": "special",
+    "cooldown_s": 2.2,
+    "effect": {
+      "status": "paralysis",
+      "status_chance": 10
+    },
+    "name": "Thunderbolt",
+    "power": 95,
+    "pp": 15,
+    "priority": 0,
+    "range_m": 12.0,
+    "type": "electric"
+  },
+  "transform": {
+    "accuracy": null,
+    "archetype": "status_cloud",
+    "cast_s": 0.4,
+    "category": "status",
+    "cooldown_s": 1.5,
+    "effect": {},
+    "name": "Transform",
+    "power": null,
+    "pp": 10,
+    "priority": 0,
+    "range_m": 10.0,
+    "type": "normal"
+  },
+  "tri_attack": {
+    "accuracy": 100,
+    "archetype": "beam",
+    "cast_s": 0.5,
+    "category": "physical",
+    "cooldown_s": 2.0,
+    "effect": {},
+    "name": "Tri Attack",
+    "power": 80,
+    "pp": 10,
+    "priority": 0,
+    "range_m": 8.0,
+    "type": "normal"
+  },
+  "triple_kick": {
+    "accuracy": 90,
+    "archetype": "melee_arc",
+    "cast_s": 0.3,
+    "category": "physical",
+    "cooldown_s": 0.8,
+    "effect": {},
+    "name": "Triple Kick",
+    "power": 10,
+    "pp": 10,
+    "priority": 0,
+    "range_m": 2.0,
+    "type": "fighting"
+  },
+  "twineedle": {
+    "accuracy": 100,
+    "archetype": "beam",
+    "cast_s": 0.4,
+    "category": "physical",
+    "cooldown_s": 1.0,
+    "effect": {
+      "status": "poison",
+      "status_chance": 20
+    },
+    "name": "Twineedle",
+    "power": 25,
+    "pp": 20,
+    "priority": 0,
+    "range_m": 8.0,
+    "type": "bug"
+  },
+  "twister": {
+    "accuracy": 100,
+    "archetype": "area_burst",
+    "cast_s": 0.6,
+    "category": "special",
+    "cooldown_s": 2.0,
+    "effect": {
+      "flinch_chance": 20
+    },
+    "name": "Twister",
+    "power": 40,
+    "pp": 20,
+    "priority": 0,
+    "range_m": 6.0,
+    "type": "dragon"
+  },
+  "vice_grip": {
+    "accuracy": 100,
+    "archetype": "melee_arc",
+    "cast_s": 0.3,
+    "category": "physical",
+    "cooldown_s": 0.8,
+    "effect": {},
+    "name": "Vise Grip",
+    "power": 55,
+    "pp": 30,
+    "priority": 0,
+    "range_m": 2.0,
+    "type": "normal"
+  },
+  "vine_whip": {
+    "accuracy": 100,
+    "archetype": "projectile",
+    "cast_s": 0.5,
+    "category": "special",
+    "cooldown_s": 1.2,
+    "effect": {},
+    "name": "Vine Whip",
+    "power": 35,
+    "pp": 10,
+    "priority": 0,
+    "range_m": 12.0,
+    "type": "grass"
+  },
+  "vital_throw": {
+    "accuracy": null,
+    "archetype": "melee_arc",
+    "cast_s": 0.4,
+    "category": "physical",
+    "cooldown_s": 0.8,
+    "effect": {},
+    "name": "Vital Throw",
+    "power": 70,
+    "pp": 10,
+    "priority": -1,
+    "range_m": 2.0,
+    "type": "fighting"
+  },
+  "water_gun": {
+    "accuracy": 100,
+    "archetype": "projectile",
+    "cast_s": 0.5,
+    "category": "special",
+    "cooldown_s": 1.2,
+    "effect": {},
+    "name": "Water Gun",
+    "power": 40,
+    "pp": 25,
+    "priority": 0,
+    "range_m": 12.0,
+    "type": "water"
+  },
+  "waterfall": {
+    "accuracy": 100,
+    "archetype": "projectile",
+    "cast_s": 0.6,
+    "category": "special",
+    "cooldown_s": 2.2,
+    "effect": {
+      "flinch_chance": 20
+    },
+    "name": "Waterfall",
+    "power": 80,
+    "pp": 15,
+    "priority": 0,
+    "range_m": 12.0,
+    "type": "water"
+  },
+  "whirlwind": {
+    "accuracy": 100,
+    "archetype": "status_cloud",
+    "cast_s": 0.4,
+    "category": "status",
+    "cooldown_s": 1.5,
+    "effect": {},
+    "name": "Whirlwind",
+    "power": null,
+    "pp": 20,
+    "priority": -6,
+    "range_m": 10.0,
+    "type": "normal"
+  },
+  "wing_attack": {
+    "accuracy": 100,
+    "archetype": "melee_arc",
+    "cast_s": 0.3,
+    "category": "physical",
+    "cooldown_s": 0.8,
+    "effect": {},
+    "name": "Wing Attack",
+    "power": 60,
+    "pp": 35,
+    "priority": 0,
+    "range_m": 2.0,
+    "type": "flying"
+  },
+  "withdraw": {
+    "accuracy": null,
+    "archetype": "aura",
+    "cast_s": 0.3,
+    "category": "status",
+    "cooldown_s": 3.0,
+    "effect": {
+      "stat_changes": [
+        {
+          "stages": 1,
+          "stat": "def",
+          "target": "user"
+        }
+      ]
+    },
+    "name": "Withdraw",
+    "power": null,
+    "pp": 40,
+    "priority": 0,
+    "range_m": 0.0,
+    "type": "water"
+  },
+  "wrap": {
+    "accuracy": 85,
+    "archetype": "melee_arc",
+    "cast_s": 0.3,
+    "category": "physical",
+    "cooldown_s": 0.8,
+    "effect": {
+      "status": "trap"
+    },
+    "name": "Wrap",
+    "power": 15,
+    "pp": 20,
+    "priority": 0,
+    "range_m": 2.0,
+    "type": "normal"
+  },
+  "zap_cannon": {
+    "accuracy": 50,
+    "archetype": "projectile",
+    "cast_s": 0.6,
+    "category": "special",
+    "cooldown_s": 2.2,
+    "effect": {
+      "status": "paralysis"
+    },
+    "name": "Zap Cannon",
+    "power": 100,
+    "pp": 5,
+    "priority": 0,
+    "range_m": 12.0,
+    "type": "electric"
+  }
+}

@@ -1,0 +1,218 @@
+[
+ {
+  "name": "v19_front",
+  "pos": [
+   -9.3,
+   200.5,
+   -4.0
+  ],
+  "yaw_deg": 0,
+  "pitch_deg": -8,
+  "time_of_day": 0.5,
+  "wait_s": 8
+ },
+ {
+  "name": "v19_rear",
+  "pos": [
+   -5.7,
+   200.5,
+   4.0
+  ],
+  "yaw_deg": 180,
+  "pitch_deg": -8,
+  "time_of_day": 0.5,
+  "wait_s": 8
+ },
+ {
+  "name": "v19_side",
+  "pos": [
+   -11.5,
+   200.5,
+   0.0
+  ],
+  "yaw_deg": -90,
+  "pitch_deg": -6,
+  "time_of_day": 0.5,
+  "wait_s": 8
+ },
+ {
+  "name": "v25_front",
+  "pos": [
+   -3.3,
+   200.5,
+   -4.0
+  ],
+  "yaw_deg": 0,
+  "pitch_deg": -8,
+  "time_of_day": 0.5,
+  "wait_s": 8
+ },
+ {
+  "name": "v25_rear",
+  "pos": [
+   0.3,
+   200.5,
+   4.0
+  ],
+  "yaw_deg": 180,
+  "pitch_deg": -8,
+  "time_of_day": 0.5,
+  "wait_s": 8
+ },
+ {
+  "name": "v25_side",
+  "pos": [
+   -5.5,
+   200.5,
+   0.0
+  ],
+  "yaw_deg": -90,
+  "pitch_deg": -6,
+  "time_of_day": 0.5,
+  "wait_s": 8
+ },
+ {
+  "name": "v92_front",
+  "pos": [
+   2.7,
+   200.5,
+   -4.0
+  ],
+  "yaw_deg": 0,
+  "pitch_deg": -8,
+  "time_of_day": 0.5,
+  "wait_s": 8
+ },
+ {
+  "name": "v92_rear",
+  "pos": [
+   6.3,
+   200.5,
+   4.0
+  ],
+  "yaw_deg": 180,
+  "pitch_deg": -8,
+  "time_of_day": 0.5,
+  "wait_s": 8
+ },
+ {
+  "name": "v92_side",
+  "pos": [
+   0.5,
+   200.5,
+   0.0
+  ],
+  "yaw_deg": -90,
+  "pitch_deg": -6,
+  "time_of_day": 0.5,
+  "wait_s": 8
+ },
+ {
+  "name": "v95_front",
+  "pos": [
+   8.7,
+   200.5,
+   -4.0
+  ],
+  "yaw_deg": 0,
+  "pitch_deg": -8,
+  "time_of_day": 0.5,
+  "wait_s": 8
+ },
+ {
+  "name": "v95_rear",
+  "pos": [
+   12.3,
+   200.5,
+   4.0
+  ],
+  "yaw_deg": 180,
+  "pitch_deg": -8,
+  "time_of_day": 0.5,
+  "wait_s": 8
+ },
+ {
+  "name": "v95_side",
+  "pos": [
+   6.5,
+   200.5,
+   0.0
+  ],
+  "yaw_deg": -90,
+  "pitch_deg": -6,
+  "time_of_day": 0.5,
+  "wait_s": 8
+ },
+ {
+  "name": "v130_front",
+  "pos": [
+   14.7,
+   200.5,
+   -4.0
+  ],
+  "yaw_deg": 0,
+  "pitch_deg": -8,
+  "time_of_day": 0.5,
+  "wait_s": 8
+ },
+ {
+  "name": "v130_rear",
+  "pos": [
+   18.3,
+   200.5,
+   4.0
+  ],
+  "yaw_deg": 180,
+  "pitch_deg": -8,
+  "time_of_day": 0.5,
+  "wait_s": 8
+ },
+ {
+  "name": "v130_side",
+  "pos": [
+   12.5,
+   200.5,
+   0.0
+  ],
+  "yaw_deg": -90,
+  "pitch_deg": -6,
+  "time_of_day": 0.5,
+  "wait_s": 8
+ },
+ {
+  "name": "v155_front",
+  "pos": [
+   20.7,
+   200.5,
+   -4.0
+  ],
+  "yaw_deg": 0,
+  "pitch_deg": -8,
+  "time_of_day": 0.5,
+  "wait_s": 8
+ },
+ {
+  "name": "v155_rear",
+  "pos": [
+   24.3,
+   200.5,
+   4.0
+  ],
+  "yaw_deg": 180,
+  "pitch_deg": -8,
+  "time_of_day": 0.5,
+  "wait_s": 8
+ },
+ {
+  "name": "v155_side",
+  "pos": [
+   18.5,
+   200.5,
+   0.0
+  ],
+  "yaw_deg": -90,
+  "pitch_deg": -6,
+  "time_of_day": 0.5,
+  "wait_s": 8
+ }
+]

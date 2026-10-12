@@ -1,0 +1,14 @@
+[
+ {"name": "t19_front", "pos": [-7.5, 200.5, -15.0], "yaw_deg": 0, "pitch_deg": 1, "time_of_day": 0.5, "wait_s": 6},
+ {"name": "t19_obl", "pos": [-12.0, 200.5, -9.0], "yaw_deg": -26.6, "pitch_deg": 2, "time_of_day": 0.5, "wait_s": 6},
+ {"name": "t25_front", "pos": [-1.5, 200.5, -15.0], "yaw_deg": 0, "pitch_deg": 3, "time_of_day": 0.5, "wait_s": 6},
+ {"name": "t25_obl", "pos": [-10.5, 200.5, -9.0], "yaw_deg": -45, "pitch_deg": 4, "time_of_day": 0.5, "wait_s": 6},
+ {"name": "t92_front", "pos": [4.5, 200.5, -15.0], "yaw_deg": 0, "pitch_deg": 2, "time_of_day": 0.5, "wait_s": 6},
+ {"name": "t92_obl", "pos": [-4.5, 200.5, -9.0], "yaw_deg": -45, "pitch_deg": 2, "time_of_day": 0.5, "wait_s": 6},
+ {"name": "t95_front", "pos": [10.5, 200.5, -15.0], "yaw_deg": 0, "pitch_deg": 5, "time_of_day": 0.5, "wait_s": 6},
+ {"name": "t95_obl", "pos": [1.5, 200.5, -9.0], "yaw_deg": -45, "pitch_deg": 6, "time_of_day": 0.5, "wait_s": 6},
+ {"name": "t130_front", "pos": [16.5, 200.5, -15.0], "yaw_deg": 0, "pitch_deg": 20, "time_of_day": 0.5, "wait_s": 6},
+ {"name": "t130_obl", "pos": [7.5, 200.5, -9.0], "yaw_deg": -45, "pitch_deg": 23, "time_of_day": 0.5, "wait_s": 6},
+ {"name": "t155_front", "pos": [22.5, 200.5, -15.0], "yaw_deg": 0, "pitch_deg": 4, "time_of_day": 0.5, "wait_s": 6},
+ {"name": "t155_obl", "pos": [13.5, 200.5, -9.0], "yaw_deg": -45, "pitch_deg": 5, "time_of_day": 0.5, "wait_s": 6}
+]
