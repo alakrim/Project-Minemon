@@ -10,7 +10,7 @@ Minemon is a private Pokémon-like horror adventure. It is built on Luanti 5.17.
 3. The orchestrator (Opus) reads PROJECT_INSTRUCTIONS.md, docs/PROTOCOL.md, docs/STATE.md (the "Next action" section) and the docs/PROGRESS.md summary, then writes the next briefs in `tasks/M3/` and dispatches Haiku workers (`.claude/agents/worker.md`).
 4. Build for Windows with `MINEMON_VERSION=M3 bash scripts/build_windows.sh`. It produces 25 MB parts and a JUNTAR-JOIN .bat in `builds/`.
 
-Note: `addons/`, `core/`, `project.godot` and the other Godot files are leftovers from the abandoned Godot prototype (D-024/D-025). The live game is `mods/minemon/` on Luanti.
+Note: the abandoned Godot prototype (D-024/D-025) was removed on 2026-10-12. Its history stays in git. The game is `mods/minemon/` on Luanti.
 
 ## Rules
 - [PROJECT_INSTRUCTIONS.md](PROJECT_INSTRUCTIONS.md): roles (Opus orchestrates, Haiku workers on high effort, no Sonnet), the goal, and working rules.

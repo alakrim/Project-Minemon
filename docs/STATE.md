@@ -19,5 +19,6 @@ Capture (thrown balls, odds HUD, shakes, break-free enrage), growth (exp, levels
 3. Max 3 workers; one cross-mod verifier per wave.
 
 ## Notes
+- 2026-10-12: the project moved to github.com/alakrim/Project-Minemon (full history), and the Godot prototype leftovers were removed.
 - check.sh: luacheck, busted, Python tests, 9 integration suites (headless luantiserver). Screenshots: scripts/screenshot.sh (real client under Xvfb).
 - Build: `bash scripts/build_windows.sh` (MINEMON_VERSION=Mx). Deliver the parts via SendUserFile, then device_commit_files (100 MB per call limit).
