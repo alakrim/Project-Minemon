@@ -1,8 +1,16 @@
 # Project Minemon: rules and status
 
-This repo holds the **core rules and the latest developments** of Minemon. It is a mirror of the project memory. The game code lives in [alakrim/Minemon](https://github.com/alakrim/Minemon).
+This repo is the **complete Minemon project**: game code, tools, tests, full git history (imported from alakrim/Minemon), and the project memory (rules, decisions, state).
 
 Minemon is a private Pokémon-like horror adventure. It is built on Luanti 5.17.0 and VoxeLibre 0.92.3, with our own Lua mods. It has real-time creature combat, capture after defeat, 3 lives then permadeath, Kanto and Johto towns, and eldritch giants.
+
+## Continue in a new session
+1. Clone this repo. Then run `bash scripts/setup.sh --client`. It takes about 10 minutes and builds Luanti 5.17.0, clones VoxeLibre and cobblemon-bedrock into `.tools/` (git-ignored), and converts the creature models.
+2. Run `bash scripts/check.sh`. It runs luacheck, the busted unit tests and 15 headless integration suites, all green at M2.
+3. The orchestrator (Opus) reads PROJECT_INSTRUCTIONS.md, docs/PROTOCOL.md, docs/STATE.md (the "Next action" section) and the docs/PROGRESS.md summary, then writes the next briefs in `tasks/M3/` and dispatches Haiku workers (`.claude/agents/worker.md`).
+4. Build for Windows with `MINEMON_VERSION=M3 bash scripts/build_windows.sh`. It produces 25 MB parts and a JUNTAR-JOIN .bat in `builds/`.
+
+Note: `addons/`, `core/`, `project.godot` and the other Godot files are leftovers from the abandoned Godot prototype (D-024/D-025). The live game is `mods/minemon/` on Luanti.
 
 ## Rules
 - [PROJECT_INSTRUCTIONS.md](PROJECT_INSTRUCTIONS.md): roles (Opus orchestrates, Haiku workers on high effort, no Sonnet), the goal, and working rules.
